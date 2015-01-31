@@ -1,0 +1,1126 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"formExample",
+				"formExamplesModalCtrl"
+			],
+			[
+				"entity",
+				"entity"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "client/app/src/app.jsx",
+			"settings":
+			{
+				"buffer_size": 1224,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 6073,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/app/src/routes.jsx",
+			"settings":
+			{
+				"buffer_size": 1056,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/app/styles/main.less",
+			"settings":
+			{
+				"buffer_size": 699,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 368.0,
+		"selected_items":
+		[
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 489.0
+	},
+	"console":
+	{
+		"height": 459.0,
+		"history":
+		[
+			"color_pick",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/paul/Code/fundraiser/mydrive7/client/build"
+	],
+	"file_history":
+	[
+		"/home/paul/Code/fundraiser/mydrive7/client/app/src/components/Main.jsx",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/src/dispatchers/AppDispatcher.js",
+		"/home/paul/Code/fundraiser/mydrive7/server/routes.js",
+		"/home/paul/Code/fundraiser/mydrive7/gulp/browserify.js",
+		"/home/paul/Code/fundraiser/mydrive7/gulp/style.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/styles/main.less",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/src/components/NavBar.jsx",
+		"/home/paul/Code/fundraiser/mydrive7/gulpfile.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/build/main.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/src/app.jsx",
+		"/home/paul/Code/fundraiser/mydrive7/package.json",
+		"/home/paul/Code/fundraiser/mydrive7/gulp/config.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/styles/main.scss",
+		"/home/paul/Code/fundraiser/mydrive7/server/config/express.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/react-router/modules/mixins/Navigation.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/browserify/node_modules/events/tests/num-args.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp-nodemon/node_modules/.bin/nodemon",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/tiny-lr/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/draft75.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/browserify/node_modules/syntax-error/node_modules/acorn/test/driver.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/jest-cli/node_modules/jsdom/node_modules/cssstyle/lib/properties/playDuring.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/react/lib/SyntheticDragEvent.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/jest-cli/src/HasteModuleLoader/__tests__/test_root/subdir1/MyModule.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/ejs/Makefile",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/react/lib/getUnboundedScrollPosition.js",
+		"/home/paul/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/src/components/Item.jsx",
+		"/home/paul/Code/fundraiser/mydrive5/node_modules/grunt-karma/test/grunt-karma-test.js",
+		"/home/paul/Code/fundraiser/mydrive5/server/app.js",
+		"/home/paul/Code/fundraiser/mydrive5/Gruntfile.js",
+		"/home/paul/Code/fundraiser/mydrive5/server/config/express.js",
+		"/home/paul/Code/fundraiser/mydrive5/node_modules/supertest/example.js",
+		"/home/paul/Code/fundraiser/mydrive5/client/app/app.coffee",
+		"/home/paul/Code/fundraiser/mydrive5/node_modules/sequelize-cli/gulpfile.js",
+		"/home/paul/Code/fundraiser/mydrive5/bower.json",
+		"/home/paul/Code/fundraiser/mydrive5/package.json",
+		"/home/paul/Code/fundraiser/mydrive5/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/npmconf/node_modules/uid-number/get-uid-gid.js",
+		"/home/paul/Code/fundraiser/mydrive5/.sass-cache/af1289ca7f010b3d69f8884f2e2c729a035d2186/_background-origin.scssc",
+		"/home/paul/Code/fundraiser/mydrive5/client/components/mysite/subscriptionForm/subscriptionForm.directive.coffee",
+		"/home/paul/Code/fundraiser/mydrive5/server/api/data/subscriber/subscriber.model.js",
+		"/home/paul/Code/fundraiser/mydrive5/public/app/site/site.controller.coffee",
+		"/home/paul/Code/fundraiser/mydrive5/server/api/site/site.controller.js",
+		"/home/paul/Code/fundraiser/mydrive5/server/api/data/subscriber/subscriber.controller.js",
+		"/home/paul/Code/fundraiser/mydrive5/server/api/data/subscriber/index.js",
+		"/home/paul/Code/fundraiser/mydrive5/client/bower_components/SHA-1/sha1.js",
+		"/home/paul/Code/fundraiser/mydrive5/client/app/services/sites/sites.service.coffee",
+		"/home/paul/Code/fundraiser/mydrive5/node_modules/sequelize-cli/node_modules/gulp/node_modules/vinyl-fs/lib/dest/writeContents.js",
+		"/home/paul/Code/fundraiser/mydrive5/public/app/site/site.coffee",
+		"/home/paul/Code/fundraiser/mydrive5/node_modules/sinon/pkg/sinon-ie.js",
+		"/home/paul/Code/fundraiser/mydrive5/server/api/site/site.model.js",
+		"/home/paul/Code/fundraiser/mydrive5/node_modules/karma/node_modules/source-map/build/suffix-utils.jsm",
+		"/home/paul/Code/fundraiser/mydrive5/.sass-cache/1782bdfb64591ed5e125153eb6e88aadba641aa6/sites.scssc",
+		"/home/paul/Code/fundraiser/mydrive5/client/app/admin/sites/site/siteSettings/siteSettings.jade",
+		"/home/paul/Code/fundraiser/mydrive5/node_modules/connect/LICENSE",
+		"/home/paul/Code/fundraiser/mydrive5/node_modules/karma/node_modules/optimist/example/line_count_options.js",
+		"/home/paul/Code/fundraiser/mydrive5/client/app/account/login/login.controller.coffee",
+		"/home/paul/Code/fundraiser/mydrive5/public/app/app.coffee",
+		"/home/paul/Code/fundraiser/mydrive5/node_modules/express-subdomain/test/README.md",
+		"/home/paul/Code/fundraiser/mydrive5/node_modules/subdomain/LICENSE",
+		"/home/paul/Code/fundraiser/mydrive5/node_modules/subdomain/lib/subdomain.js",
+		"/home/paul/Code/fundraiser/mydrive5/public/app/site/site.jade",
+		"/home/paul/Code/fundraiser/mydrive5/publicGruntfile.js",
+		"/home/paul/Code/fundraiser/mydrive5/client/components/mysite/myPage/myPage.directive.coffee",
+		"/home/paul/Code/fundraiser/mydrive5/.tmp/components/mysite/myPage/myPage.js",
+		"/home/paul/Code/fundraiser/mydrive5/mydrive5.sublime-project",
+		"/home/paul/Code/fundraiser/mydrive5/mocha.conf.js",
+		"/home/paul/Code/fundraiser/mydrive5/client/app/app.scss",
+		"/home/paul/Code/fundraiser/mydrive5/.tmp/app/admin/sites/site/siteSettings/siteSettings.src.coffee",
+		"/home/paul/Code/fundraiser/mydrive5/client/components/mysite/subscriptionForm/subscriptionForm.jade",
+		"/home/paul/Code/fundraiser/mydrive5/client/components/mysite/myForm/myForm.jade",
+		"/home/paul/Code/fundraiser/mydrive5/node_modules/googleapis/apis/oauth2/v1.js",
+		"/home/paul/Code/fundraiser/mydrive5/node_modules/googleapis/lib/auth/oauth2client.js",
+		"/home/paul/Code/fundraiser/mydrive5/node_modules/googleapis/lib/googleapis.js",
+		"/home/paul/Code/fundraiser/mydrive5/node_modules/karma/node_modules/glob/test/new-glob-optional-options.js",
+		"/home/paul/Code/fundraiser/mydrive5/node_modules/grunt-node-inspector/node_modules/node-inspector/front-end/GoToLineDialog.js",
+		"/home/paul/Code/fundraiser/mydrive5/node_modules/.bin/grunt-open",
+		"/home/paul/Code/fundraiser/mydrive5/client/components/mysite/myForm/fieldTemplates/options.jade",
+		"/home/paul/Code/fundraiser/mydrive5/node_modules/passport-google-oauth/node_modules/pkginfo/examples/object-argument.js",
+		"/home/paul/Code/fundraiser/mydrive5/node_modules/passport-google-oauth/lib/passport-google-oauth/oauth.js",
+		"/home/paul/Code/fundraiser/mydrive5/server/api/api.service.js",
+		"/home/paul/Code/fundraiser/mydrive5/server/components/google/drive.js",
+		"/home/paul/Code/fundraiser/mydrive5/node_modules/passport-facebook/node_modules/passport-oauth2/node_modules/oauth/examples/express-gdata/views/google_calendars.ejs",
+		"/home/paul/Code/fundraiser/mydrive5/node_modules/grunt-google-cdn/node_modules/google-cdn/googlecdn.js",
+		"/home/paul/Code/fundraiser/mydrive5/server/components/stripe-passport/strategy.js",
+		"/home/paul/Code/fundraiser/mydrive5/node_modules/stripe/lib/StripeMethod.basic.js",
+		"/home/paul/Code/fundraiser/mydrive5/node_modules/stripe/lib/StripeMethod.js",
+		"/home/paul/Code/fundraiser/mydrive5/node_modules/stripe/test/stripe.spec.js",
+		"/home/paul/Code/fundraiser/mydrive5/server/auth/stripe/index.js",
+		"/home/paul/Code/fundraiser/mydrive5/node_modules/stripe/lib/stripe.js",
+		"/home/paul/Code/fundraiser/mydrive5/node_modules/csv/doc/stringifier.md",
+		"/home/paul/Code/fundraiser/mydrive5/node_modules/stripe/lib/StripeResource.js",
+		"/home/paul/Code/fundraiser/mydrive5/node_modules/grunt-express-server/test/stoppable_test.js",
+		"/home/paul/Code/fundraiser/mydrive5/.tmp/components/mysite/subscriptionForm/subscriptionForm.js.map",
+		"/home/paul/Code/fundraiser/mydrive5/node_modules/grunt-google-cdn/node_modules/bower/node_modules/inquirer/node_modules/rx/src/core/testing/subscription.js",
+		"/home/paul/Code/fundraiser/mydrive5/client/app/services/forms/forms.service.coffee",
+		"/home/paul/Code/fundraiser/mydrive5/client/app/admin/forms/forms.controller.coffee",
+		"/home/paul/Code/fundraiser/mydrive5/client/app/admin/forms/forms.jade",
+		"/home/paul/Code/fundraiser/mydrive5/client/app/admin/modals/myButtonModal.jade",
+		"/home/paul/Code/fundraiser/mydrive5/.tmp/app/admin/modals/myButtonModal.html",
+		"/home/paul/Code/fundraiser/mydrive5/client/components/mysite/myButton/myButton.directive.coffee",
+		"/home/paul/Code/fundraiser/mydrive5/.tmp/app/admin/forms/formOptions.html",
+		"/home/paul/Code/fundraiser/mydrive5/client/app/admin/forms/formExamplesModal.jade",
+		"/home/paul/Code/fundraiser/mydrive5/server/api/form/form.controller.js",
+		"/home/paul/Code/fundraiser/mydrive5/client/components/mysite/myForm/myFormModal.jade",
+		"/home/paul/Code/fundraiser/mydrive5/client/app/admin/forms/formItems.jade",
+		"/home/paul/Code/fundraiser/mydrive5/.tmp/components/mysite/myForm/myFormModal.html",
+		"/home/paul/Code/fundraiser/mydrive5/client/components/mysite/myForm/myForm.directive.coffee",
+		"/home/paul/Code/fundraiser/mydrive5/.sass-cache/25746e2be27d2f43ce18e93bdd293cb8889d545b/myForm.scssc",
+		"/home/paul/Code/fundraiser/mydrive5/server/api/form/form.model.js",
+		"/home/paul/Code/fundraiser/mydrive5/server/api/form/form.integration.js",
+		"/home/paul/Code/fundraiser/mydrive5/client/components/mysite/myButton/myButton.jade",
+		"/home/paul/Code/fundraiser/mydrive5/.sass-cache/5cf4d7353b55f29e1b4dc40cb0e7cbbf9245c901/myButton.scssc",
+		"/home/paul/Code/fundraiser/mydrive5/client/app/admin/forms/formItemsModal.jade",
+		"/home/paul/Code/fundraiser/mydrive5/client/app/admin/forms/formItems.directive.coffee",
+		"/home/paul/Code/fundraiser/mydrive5/.tmp/app/admin/forms/forms.js",
+		"/home/paul/Code/fundraiser/mydrive5/.sass-cache/4141c5417a045049833efacf4273d5a7f34a9800/forms.scssc",
+		"/home/paul/Code/fundraiser/mydrive5/client/app/admin/forms/formOptions.jade",
+		"/home/paul/Code/fundraiser/mydrive5/client/components/mysite/myForm/fieldTemplates/number.jade",
+		"/home/paul/Code/fundraiser/mydrive5/node_modules/mongoose/lib/schema/number.js",
+		"/home/paul/Code/fundraiser/mydrive5/node_modules/grunt-google-cdn/node_modules/bower/node_modules/archy/test/non_unicode.js",
+		"/home/paul/Code/fundraiser/mydrive5/client/components/navbar/navbar.jade",
+		"/home/paul/Code/fundraiser/mydrive5/.tmp/app/admin/forms/formItemsModal.html",
+		"/home/paul/Code/fundraiser/mydrive5/node_modules/karma/node_modules/log4js/examples/flush-on-exit.js",
+		"/home/paul/Code/fundraiser/mydrive5/.tmp/app/admin/forms/formItems.js",
+		"/home/paul/Code/fundraiser/mydrive5/.tmp/app/admin/forms/formItems.html",
+		"/home/paul/Code/fundraiser/mydrive5/client/app/admin/forms/forms.coffee",
+		"/home/paul/Code/fundraiser/mydrive5/node_modules/grunt-protractor-runner/node_modules/protractor/node_modules/selenium-webdriver/lib/test/data/formSelectionPage.html",
+		"/home/paul/Code/fundraiser/mydrive5/client/app/admin/media/media.scss",
+		"/home/paul/Code/fundraiser/mydrive5/.tmp/app/admin/sites/site/siteSettings/siteSettings.js"
+	],
+	"find":
+	{
+		"height": 55.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Link",
+			"es5",
+			"(",
+			"run",
+			"lr",
+			"listen",
+			"reload",
+			"livereload",
+			"tmp",
+			"subdomain",
+			"authInterceptor",
+			"verifyToken",
+			"formItem",
+			"Sites",
+			"site",
+			"subdomain",
+			"injector",
+			"getOauthAcce",
+			"domain",
+			"validateJwt",
+			"initiate",
+			"User",
+			"Thing",
+			"User",
+			"google",
+			"reinit",
+			"ngAnimate",
+			"scope.avail",
+			"destination",
+			"ng-show",
+			"ng-if",
+			"fields",
+			"selects",
+			"options",
+			"selects",
+			"options",
+			"#5264AE",
+			"#d34336",
+			"#4fc24f",
+			"width",
+			".name",
+			"fieldName",
+			"state",
+			".length",
+			"core",
+			"textarea",
+			"paperInputDate",
+			"scope.",
+			"model",
+			"idx",
+			"$index",
+			"config",
+			"@include",
+			"ul",
+			"formItem.type",
+			"modern",
+			"datepickerPopup",
+			"datepicker",
+			"editMode",
+			"edit",
+			"btn-group",
+			"_",
+			"numPerPage",
+			"console",
+			"\n  ",
+			"console",
+			"save",
+			"site save",
+			"save",
+			"filtered",
+			"numPages",
+			"class=\"container",
+			"container",
+			"data-type",
+			"adding",
+			"subEditing",
+			"console",
+			"group",
+			"menuItems",
+			"group",
+			"groups",
+			"remove",
+			"group.save",
+			"groupName",
+			"jquery",
+			"$modal",
+			"dynamic",
+			"Templates",
+			"templates",
+			"init()",
+			"console",
+			"get",
+			"60",
+			"finance",
+			"toke",
+			"port",
+			"socket",
+			"isAdminState",
+			"www",
+			"app.",
+			"app.admin",
+			"app",
+			"clean",
+			"injector",
+			"injector:scripts",
+			"ckeditor",
+			"ngTemplates",
+			"isCOllapsed",
+			"150",
+			"headroom.js",
+			"headroom",
+			"Headroom",
+			"headroom",
+			"service",
+			"newSite",
+			"\n  ",
+			"console.log",
+			"console",
+			"consol",
+			"copy",
+			"ckeditor",
+			"wiredep",
+			"tick",
+			"service",
+			"editorOptions",
+			"config.public",
+			"navigationItems",
+			"goTo"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "client/app/src/app.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1224,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								721,
+								721
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ReactJS/syntax/jsx/tmLanguage/JavaScript (JSX).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6073,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4534,
+								4534
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1939.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "client/app/src/routes.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1056,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								171,
+								171
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ReactJS/syntax/jsx/tmLanguage/JavaScript (JSX).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "client/app/styles/main.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 699,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								336,
+								336
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 55.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.coffeecompile_output":
+	{
+		"height": 219.0
+	},
+	"output.exec":
+	{
+		"height": 116.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 86.0
+	},
+	"project": "mydrive7.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"gulpfil",
+				"gulpfile.js"
+			],
+			[
+				"routes",
+				"server/routes.js"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"expres",
+				"server/config/express.js"
+			],
+			[
+				"nav",
+				"client/app/src/components/NavBar.jsx"
+			],
+			[
+				"gulf",
+				"gulpfile.js"
+			],
+			[
+				"gruntfile",
+				"Gruntfile.js"
+			],
+			[
+				"app.js",
+				"server/app.js"
+			],
+			[
+				"express",
+				"server/config/express.js"
+			],
+			[
+				"grut",
+				"node_modules/grunt-karma/test/grunt-karma-test.js"
+			],
+			[
+				"grunt",
+				"Gruntfile.js"
+			],
+			[
+				"gulpfile",
+				"node_modules/sequelize-cli/gulpfile.js"
+			],
+			[
+				"bower.",
+				"bower.json"
+			],
+			[
+				"subscribercontroller",
+				"server/api/data/subscriber/subscriber.controller.js"
+			],
+			[
+				"sitecontrollerjs",
+				"server/api/site/site.controller.js"
+			],
+			[
+				"site.controller.js",
+				"server/api/site/site.controller.js"
+			],
+			[
+				"site.con",
+				"public/app/site/site.controller.coffee"
+			],
+			[
+				"subscribercon",
+				"server/api/data/subscriber/subscriber.controller.js"
+			],
+			[
+				"site.model",
+				"server/api/site/site.model.js"
+			],
+			[
+				"subscribermodel",
+				"server/api/data/subscriber/subscriber.model.js"
+			],
+			[
+				"sitemodel",
+				"server/api/site/site.model.js"
+			],
+			[
+				"sites.service",
+				"client/app/services/sites/sites.service.coffee"
+			],
+			[
+				"subscribdir",
+				"client/components/mysite/subscriptionForm/subscriptionForm.directive.coffee"
+			],
+			[
+				"publicsite",
+				"public/app/site/site.controller.coffee"
+			],
+			[
+				"mypage.dir",
+				"client/components/mysite/myPage/myPage.directive.coffee"
+			],
+			[
+				"app.coff",
+				"client/app/app.coffee"
+			],
+			[
+				"siteservice",
+				"client/app/services/sites/sites.service.coffee"
+			],
+			[
+				"subscriptionfo",
+				"client/components/mysite/subscriptionForm/subscriptionForm.directive.coffee"
+			],
+			[
+				"subscriptionform.jade",
+				"client/components/mysite/subscriptionForm/subscriptionForm.jade"
+			],
+			[
+				"googleapioauth",
+				"node_modules/googleapis/apis/oauth2/v1.js"
+			],
+			[
+				"apiservi",
+				"server/api/api.service.js"
+			],
+			[
+				"googledrive",
+				"server/components/google/drive.js"
+			],
+			[
+				"stripest",
+				"server/components/stripe-passport/strategy.js"
+			],
+			[
+				"subscriberindex",
+				"server/api/data/subscriber/index.js"
+			],
+			[
+				"subscriptionform.di",
+				"client/components/mysite/subscriptionForm/subscriptionForm.directive.coffee"
+			],
+			[
+				"mybuttonmodal",
+				"client/app/admin/modals/myButtonModal.jade"
+			],
+			[
+				"mybutton.dir",
+				"client/components/mysite/myButton/myButton.directive.coffee"
+			],
+			[
+				"forms.servic",
+				"client/app/services/forms/forms.service.coffee"
+			],
+			[
+				"forms.jade",
+				"client/app/admin/forms/forms.jade"
+			],
+			[
+				"forms.ser",
+				"client/app/services/forms/forms.service.coffee"
+			],
+			[
+				"forms.con",
+				"client/app/admin/forms/forms.controller.coffee"
+			],
+			[
+				"formmodal",
+				"client/components/mysite/myForm/myFormModal.jade"
+			],
+			[
+				"myform.dir",
+				"client/components/mysite/myForm/myForm.directive.coffee"
+			],
+			[
+				"form.model",
+				"server/api/form/form.model.js"
+			],
+			[
+				"form.con",
+				"server/api/form/form.controller.js"
+			],
+			[
+				"mybutton",
+				"client/app/admin/modals/myButtonModal.jade"
+			],
+			[
+				"formcon",
+				"client/app/admin/forms/forms.controller.coffee"
+			],
+			[
+				"myform",
+				"client/components/mysite/myForm/myForm.jade"
+			],
+			[
+				"number.jad",
+				"client/components/mysite/myForm/fieldTemplates/number.jade"
+			],
+			[
+				"formitems.dir",
+				"client/app/admin/forms/formItems.directive.coffee"
+			],
+			[
+				"formitems.jade",
+				"client/app/admin/forms/formItems.jade"
+			],
+			[
+				"formitemjad",
+				"client/app/admin/forms/formItemsModal.jade"
+			],
+			[
+				"formitemsmod",
+				".tmp/app/admin/forms/formItemsModal.html"
+			],
+			[
+				"sitesett",
+				"client/app/admin/sites/site/siteSettings/siteSettings.jade"
+			],
+			[
+				"sitesettings.j",
+				"client/app/admin/sites/site/siteSettings/siteSettings.jade"
+			],
+			[
+				"sitesettings.jad",
+				"client/app/admin/sites/site/siteSettings/siteSettings.jade"
+			],
+			[
+				"navbar",
+				"client/components/navbar/navbar.jade"
+			],
+			[
+				"data.jad",
+				"client/app/admin/data/data.jade"
+			],
+			[
+				"data.jade",
+				"client/app/admin/data/data.jade"
+			],
+			[
+				"apiser",
+				"server/api/api.service.js"
+			],
+			[
+				"data.con",
+				"client/app/admin/data/data.controller.coffee"
+			],
+			[
+				"data.contl",
+				"client/app/admin/data/data.controller.coffee"
+			],
+			[
+				"app.cof",
+				"client/app/app.coffee"
+			],
+			[
+				"app.jade",
+				"public/app/app.jade"
+			],
+			[
+				"site.o",
+				"public/app/site/site.coffee"
+			],
+			[
+				"publicapp",
+				"public/app/app.coffee"
+			],
+			[
+				"index.h",
+				"client/index.html"
+			],
+			[
+				"index",
+				"client/index.html"
+			],
+			[
+				"login.jade",
+				"client/app/account/login/login.jade"
+			],
+			[
+				"public",
+				"publicGruntfile.js"
+			],
+			[
+				"waypoints.j",
+				"client/bower_components/waypoints/waypoints.js"
+			],
+			[
+				"sha1",
+				"client/bower_components/SHA-1/sha1.js"
+			],
+			[
+				"publicsite.jad",
+				"public/app/site/site.jade"
+			],
+			[
+				"site.coff",
+				"public/app/site/site.coffee"
+			],
+			[
+				"main.cof",
+				"client/app/main/main.coffee"
+			],
+			[
+				"app.co",
+				"client/app/app.coffee"
+			],
+			[
+				"main.coff",
+				"client/app/main/main.coffee"
+			],
+			[
+				"analy",
+				"client/components/analytics/analytics.directive.coffee"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"sqldb",
+				"server/sqldb/index.js"
+			],
+			[
+				"image.mod",
+				"server/api/image/image.model.js"
+			],
+			[
+				"image.modl",
+				"server/api/image/image.model.js"
+			],
+			[
+				"user.model",
+				"server/api/user/user.model.js"
+			],
+			[
+				"develo",
+				"server/config/environment/development.js"
+			],
+			[
+				"local.",
+				"server/config/local.env.js"
+			],
+			[
+				"sqldbin",
+				"server/sqldb/index.js"
+			],
+			[
+				"configind",
+				"server/config/environment/index.js"
+			],
+			[
+				"auth.ser",
+				"server/auth/auth.service.js"
+			],
+			[
+				"stripeind",
+				"server/auth/stripe/index.js"
+			],
+			[
+				"authinde",
+				"server/auth/index.js"
+			],
+			[
+				"googlepass",
+				"server/auth/google/passport.js"
+			],
+			[
+				"googleind",
+				"server/auth/google/index.js"
+			],
+			[
+				"drive",
+				"server/components/google/drive.js"
+			],
+			[
+				"strategiesoauth2",
+				"node_modules/passport-google-oauth/node_modules/passport-oauth/lib/passport-oauth/strategies/oauth2.js"
+			],
+			[
+				"googlepas",
+				"server/auth/google/passport.js"
+			],
+			[
+				"login.co",
+				"client/app/account/login/login.controller.coffee"
+			],
+			[
+				"login.con",
+				"client/app/account/login/login.controller.coffee"
+			],
+			[
+				"googlepassp",
+				"server/auth/google/passport.js"
+			],
+			[
+				"googleinde",
+				"server/auth/google/index.js"
+			],
+			[
+				"subscriberinde",
+				"server/api/data/subscriber/index.js"
+			],
+			[
+				"googlestrate",
+				"node_modules/passport-google-oauth/node_modules/passport-oauth/node_modules/passport/lib/passport/strategy.js"
+			],
+			[
+				"subscriberind",
+				"server/api/data/subscriber/index.js"
+			],
+			[
+				"authservi",
+				"server/auth/auth.service.js"
+			],
+			[
+				"passpor",
+				"server/auth/google/passport.js"
+			],
+			[
+				"passport-google",
+				"node_modules/passport-google-oauth/lib/passport-google-oauth/index.js"
+			],
+			[
+				"pass",
+				"server/auth/google/passport.js"
+			],
+			[
+				"formind",
+				"server/api/form/index.js"
+			],
+			[
+				"forminde",
+				"server/api/form/index.js"
+			],
+			[
+				"usercon",
+				"server/api/user/user.controller.js"
+			],
+			[
+				"rout",
+				"server/routes.js"
+			],
+			[
+				"subscriberin",
+				"server/api/data/subscriber/index.js"
+			],
+			[
+				"account.coff",
+				"client/app/account/account.coffee"
+			],
+			[
+				"navbar.ja",
+				"client/components/navbar/navbar.jade"
+			],
+			[
+				"stripepass",
+				"server/auth/stripe/passport.js"
+			],
+			[
+				"seed.js",
+				"server/config/seed.js"
+			],
+			[
+				"local.env",
+				"server/config/local.env.js"
+			],
+			[
+				"configinde",
+				"server/config/environment/index.js"
+			],
+			[
+				"googlestrategy",
+				"node_modules/passport-google-oauth/node_modules/passport-oauth/node_modules/passport/lib/passport/strategy.js"
+			],
+			[
+				"passport",
+				"server/auth/google/passport.js"
+			],
+			[
+				"datajade",
+				"client/app/admin/data/data.jade"
+			],
+			[
+				"local.en",
+				"server/config/local.env.js"
+			],
+			[
+				"subscribmod",
+				"server/api/data/subscriber/subscriber.model.js"
+			],
+			[
+				"socketio",
+				"server/config/socketio.js"
+			],
+			[
+				"subscriptionform.dir",
+				"client/components/mysite/subscriptionForm/subscriptionForm.directive.coffee"
+			],
+			[
+				"defaultlayou",
+				"client/components/mysite/myPage/templates/layouts/defaultLayout.jade"
+			],
+			[
+				"routes.js",
+				"server/routes.js"
+			],
+			[
+				"image.con",
+				"server/api/image/image.controller.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 355.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
