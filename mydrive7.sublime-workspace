@@ -15,38 +15,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "client/app/src/app.jsx",
-			"settings":
-			{
-				"buffer_size": 1224,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "gulpfile.js",
-			"settings":
-			{
-				"buffer_size": 6073,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "client/app/src/routes.jsx",
-			"settings":
-			{
-				"buffer_size": 1056,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "client/app/styles/main.less",
-			"settings":
-			{
-				"buffer_size": 699,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -101,22 +69,108 @@
 	},
 	"expanded_folders":
 	[
-		"/home/paul/Code/fundraiser/mydrive7/client/build"
+		"/home/paul/Code/fundraiser/mydrive7",
+		"/home/paul/Code/fundraiser/mydrive7/client",
+		"/home/paul/Code/fundraiser/mydrive7/client/app",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/components",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/stores",
+		"/home/paul/Code/fundraiser/mydrive7/server"
 	],
 	"file_history":
 	[
-		"/home/paul/Code/fundraiser/mydrive7/client/app/src/components/Main.jsx",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/src/dispatchers/AppDispatcher.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/components/Login.jsx",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/stores/AppStore.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/components/MyDrive.jsx",
+		"/home/paul/Code/fundraiser/mydrive7/server/app.js",
 		"/home/paul/Code/fundraiser/mydrive7/server/routes.js",
-		"/home/paul/Code/fundraiser/mydrive7/gulp/browserify.js",
-		"/home/paul/Code/fundraiser/mydrive7/gulp/style.js",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/styles/main.less",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/src/components/NavBar.jsx",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/components/Footer.jsx",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/src/js/icon-button.jsx",
 		"/home/paul/Code/fundraiser/mydrive7/gulpfile.js",
-		"/home/paul/Code/fundraiser/mydrive7/client/build/main.js",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/src/app.jsx",
+		"/home/paul/Code/fundraiser/mydrive7/gulp/browserify.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/browserify/test/ignore/by-relative.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/src/js/icon.jsx",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/browserify/test/hash_instance_context.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/index.html",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/client.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/app.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/components/NavBar.jsx",
 		"/home/paul/Code/fundraiser/mydrive7/package.json",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/app.jsx",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/routes/routes.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/stores/ApplicationStore.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/stores/PageStore.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/actions/NavActions.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/routes.jsx",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/components/Html.jsx",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/services/user/UserActions.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/services/UserStore.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/services/UserContants.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/services/UserService.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/constants/AppConstants.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/services/UserActions.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/src/app.jsx",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/react-router/docs/guides/flux.md",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp-autoprefixer/node_modules/autoprefixer-core/node_modules/caniuse-db/features-json/font-loading.json",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp/completion/fish",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/react/lib/Object.assign.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/passport-google-oauth/node_modules/pkginfo/examples/object-argument.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/browserify/test/field/object.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/react-addons/lib/objMap.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/styles/less/overwrite.less",
+		"/home/paul/Code/fundraiser/mydrive7/gulp/style.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp-nodemon/node_modules/colors/tests/safe-test.js",
+		"/home/paul/Code/fundraiser/mydrive7/gulp/inject.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/src/controllers/test.less",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/browserify/test/tr_error.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp-cssmin/test.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp-concat/test/test-stream.js",
+		"/home/paul/Code/fundraiser/mydrive7/server/config/seed.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/styles/less/main.less",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/src/components/banner.less",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/composable-middleware/Gruntfile.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp/node_modules/orchestrator/lib/runTask.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/watchify/node_modules/browserify/test/global_recorder.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/src/routes.jsx",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/src/stores/AppStore.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/src/dispatchers/AppDispatcher.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/src/less/components/floating-action-button.less",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/src/constants/Buttonconstants.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/src/less/components/raised-button.less",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/styles/less/overwrite.less",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp-connect/node_modules/connect/examples/upload-stream.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/src/less/components/flat-button.less",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/src/less/components/icon-button.less",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/src/components/Login.jsx",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/package.json",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/node_modules/react/react.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/README.md",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/docs/src/www/images/material-ui-logo.svg",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/jest-cli/node_modules/node-haste/__tests__/MapUpdateTask-test.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp-uglify/node_modules/uglify-js/lib/mozilla-ast.js",
+		"/home/paul/Code/fundraiser/mydrive7/mydrive7.sublime-project",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/node_modules/react/dist/react.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/src/less/material-ui-icons/fonts/material-ui-icons.svg",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/node_modules/react/lib/ReactElementValidator.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/node_modules/react/lib/EnterLeaveEventPlugin.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/src/less/material-ui-icons/Read Me.txt",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/node_modules/react/dist/react-with-addons.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/node_modules/react/lib/forEachAccumulated.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/react/package.json",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/react/lib/ReactPropTypeLocations.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/react/lib/ReactPropTransferer.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/react/lib/ReactPerf.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/react/react.js",
+		"/home/paul/Code/fundraiser/mydrive7/README.md",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/react/lib/ReactElement.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/src/components/Signup.jsx",
 		"/home/paul/Code/fundraiser/mydrive7/gulp/config.js",
+		"/home/paul/Code/fundraiser/mydrive7/gulp/utils/handleErrors.js",
+		"/home/paul/Code/fundraiser/mydrive7/gulp/utils/bundleLogger.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/styles/main.less",
+		"/home/paul/Code/fundraiser/mydrive7/.gitignore",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/src/components/Main.jsx",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/src/components/NavBar.jsx",
+		"/home/paul/Code/fundraiser/mydrive7/client/build/main.js",
 		"/home/paul/Code/fundraiser/mydrive7/client/app/styles/main.scss",
 		"/home/paul/Code/fundraiser/mydrive7/server/config/express.js",
 		"/home/paul/Code/fundraiser/mydrive7/node_modules/react-router/modules/mixins/Navigation.js",
@@ -151,88 +205,7 @@
 		"/home/paul/Code/fundraiser/mydrive5/client/bower_components/SHA-1/sha1.js",
 		"/home/paul/Code/fundraiser/mydrive5/client/app/services/sites/sites.service.coffee",
 		"/home/paul/Code/fundraiser/mydrive5/node_modules/sequelize-cli/node_modules/gulp/node_modules/vinyl-fs/lib/dest/writeContents.js",
-		"/home/paul/Code/fundraiser/mydrive5/public/app/site/site.coffee",
-		"/home/paul/Code/fundraiser/mydrive5/node_modules/sinon/pkg/sinon-ie.js",
-		"/home/paul/Code/fundraiser/mydrive5/server/api/site/site.model.js",
-		"/home/paul/Code/fundraiser/mydrive5/node_modules/karma/node_modules/source-map/build/suffix-utils.jsm",
-		"/home/paul/Code/fundraiser/mydrive5/.sass-cache/1782bdfb64591ed5e125153eb6e88aadba641aa6/sites.scssc",
-		"/home/paul/Code/fundraiser/mydrive5/client/app/admin/sites/site/siteSettings/siteSettings.jade",
-		"/home/paul/Code/fundraiser/mydrive5/node_modules/connect/LICENSE",
-		"/home/paul/Code/fundraiser/mydrive5/node_modules/karma/node_modules/optimist/example/line_count_options.js",
-		"/home/paul/Code/fundraiser/mydrive5/client/app/account/login/login.controller.coffee",
-		"/home/paul/Code/fundraiser/mydrive5/public/app/app.coffee",
-		"/home/paul/Code/fundraiser/mydrive5/node_modules/express-subdomain/test/README.md",
-		"/home/paul/Code/fundraiser/mydrive5/node_modules/subdomain/LICENSE",
-		"/home/paul/Code/fundraiser/mydrive5/node_modules/subdomain/lib/subdomain.js",
-		"/home/paul/Code/fundraiser/mydrive5/public/app/site/site.jade",
-		"/home/paul/Code/fundraiser/mydrive5/publicGruntfile.js",
-		"/home/paul/Code/fundraiser/mydrive5/client/components/mysite/myPage/myPage.directive.coffee",
-		"/home/paul/Code/fundraiser/mydrive5/.tmp/components/mysite/myPage/myPage.js",
-		"/home/paul/Code/fundraiser/mydrive5/mydrive5.sublime-project",
-		"/home/paul/Code/fundraiser/mydrive5/mocha.conf.js",
-		"/home/paul/Code/fundraiser/mydrive5/client/app/app.scss",
-		"/home/paul/Code/fundraiser/mydrive5/.tmp/app/admin/sites/site/siteSettings/siteSettings.src.coffee",
-		"/home/paul/Code/fundraiser/mydrive5/client/components/mysite/subscriptionForm/subscriptionForm.jade",
-		"/home/paul/Code/fundraiser/mydrive5/client/components/mysite/myForm/myForm.jade",
-		"/home/paul/Code/fundraiser/mydrive5/node_modules/googleapis/apis/oauth2/v1.js",
-		"/home/paul/Code/fundraiser/mydrive5/node_modules/googleapis/lib/auth/oauth2client.js",
-		"/home/paul/Code/fundraiser/mydrive5/node_modules/googleapis/lib/googleapis.js",
-		"/home/paul/Code/fundraiser/mydrive5/node_modules/karma/node_modules/glob/test/new-glob-optional-options.js",
-		"/home/paul/Code/fundraiser/mydrive5/node_modules/grunt-node-inspector/node_modules/node-inspector/front-end/GoToLineDialog.js",
-		"/home/paul/Code/fundraiser/mydrive5/node_modules/.bin/grunt-open",
-		"/home/paul/Code/fundraiser/mydrive5/client/components/mysite/myForm/fieldTemplates/options.jade",
-		"/home/paul/Code/fundraiser/mydrive5/node_modules/passport-google-oauth/node_modules/pkginfo/examples/object-argument.js",
-		"/home/paul/Code/fundraiser/mydrive5/node_modules/passport-google-oauth/lib/passport-google-oauth/oauth.js",
-		"/home/paul/Code/fundraiser/mydrive5/server/api/api.service.js",
-		"/home/paul/Code/fundraiser/mydrive5/server/components/google/drive.js",
-		"/home/paul/Code/fundraiser/mydrive5/node_modules/passport-facebook/node_modules/passport-oauth2/node_modules/oauth/examples/express-gdata/views/google_calendars.ejs",
-		"/home/paul/Code/fundraiser/mydrive5/node_modules/grunt-google-cdn/node_modules/google-cdn/googlecdn.js",
-		"/home/paul/Code/fundraiser/mydrive5/server/components/stripe-passport/strategy.js",
-		"/home/paul/Code/fundraiser/mydrive5/node_modules/stripe/lib/StripeMethod.basic.js",
-		"/home/paul/Code/fundraiser/mydrive5/node_modules/stripe/lib/StripeMethod.js",
-		"/home/paul/Code/fundraiser/mydrive5/node_modules/stripe/test/stripe.spec.js",
-		"/home/paul/Code/fundraiser/mydrive5/server/auth/stripe/index.js",
-		"/home/paul/Code/fundraiser/mydrive5/node_modules/stripe/lib/stripe.js",
-		"/home/paul/Code/fundraiser/mydrive5/node_modules/csv/doc/stringifier.md",
-		"/home/paul/Code/fundraiser/mydrive5/node_modules/stripe/lib/StripeResource.js",
-		"/home/paul/Code/fundraiser/mydrive5/node_modules/grunt-express-server/test/stoppable_test.js",
-		"/home/paul/Code/fundraiser/mydrive5/.tmp/components/mysite/subscriptionForm/subscriptionForm.js.map",
-		"/home/paul/Code/fundraiser/mydrive5/node_modules/grunt-google-cdn/node_modules/bower/node_modules/inquirer/node_modules/rx/src/core/testing/subscription.js",
-		"/home/paul/Code/fundraiser/mydrive5/client/app/services/forms/forms.service.coffee",
-		"/home/paul/Code/fundraiser/mydrive5/client/app/admin/forms/forms.controller.coffee",
-		"/home/paul/Code/fundraiser/mydrive5/client/app/admin/forms/forms.jade",
-		"/home/paul/Code/fundraiser/mydrive5/client/app/admin/modals/myButtonModal.jade",
-		"/home/paul/Code/fundraiser/mydrive5/.tmp/app/admin/modals/myButtonModal.html",
-		"/home/paul/Code/fundraiser/mydrive5/client/components/mysite/myButton/myButton.directive.coffee",
-		"/home/paul/Code/fundraiser/mydrive5/.tmp/app/admin/forms/formOptions.html",
-		"/home/paul/Code/fundraiser/mydrive5/client/app/admin/forms/formExamplesModal.jade",
-		"/home/paul/Code/fundraiser/mydrive5/server/api/form/form.controller.js",
-		"/home/paul/Code/fundraiser/mydrive5/client/components/mysite/myForm/myFormModal.jade",
-		"/home/paul/Code/fundraiser/mydrive5/client/app/admin/forms/formItems.jade",
-		"/home/paul/Code/fundraiser/mydrive5/.tmp/components/mysite/myForm/myFormModal.html",
-		"/home/paul/Code/fundraiser/mydrive5/client/components/mysite/myForm/myForm.directive.coffee",
-		"/home/paul/Code/fundraiser/mydrive5/.sass-cache/25746e2be27d2f43ce18e93bdd293cb8889d545b/myForm.scssc",
-		"/home/paul/Code/fundraiser/mydrive5/server/api/form/form.model.js",
-		"/home/paul/Code/fundraiser/mydrive5/server/api/form/form.integration.js",
-		"/home/paul/Code/fundraiser/mydrive5/client/components/mysite/myButton/myButton.jade",
-		"/home/paul/Code/fundraiser/mydrive5/.sass-cache/5cf4d7353b55f29e1b4dc40cb0e7cbbf9245c901/myButton.scssc",
-		"/home/paul/Code/fundraiser/mydrive5/client/app/admin/forms/formItemsModal.jade",
-		"/home/paul/Code/fundraiser/mydrive5/client/app/admin/forms/formItems.directive.coffee",
-		"/home/paul/Code/fundraiser/mydrive5/.tmp/app/admin/forms/forms.js",
-		"/home/paul/Code/fundraiser/mydrive5/.sass-cache/4141c5417a045049833efacf4273d5a7f34a9800/forms.scssc",
-		"/home/paul/Code/fundraiser/mydrive5/client/app/admin/forms/formOptions.jade",
-		"/home/paul/Code/fundraiser/mydrive5/client/components/mysite/myForm/fieldTemplates/number.jade",
-		"/home/paul/Code/fundraiser/mydrive5/node_modules/mongoose/lib/schema/number.js",
-		"/home/paul/Code/fundraiser/mydrive5/node_modules/grunt-google-cdn/node_modules/bower/node_modules/archy/test/non_unicode.js",
-		"/home/paul/Code/fundraiser/mydrive5/client/components/navbar/navbar.jade",
-		"/home/paul/Code/fundraiser/mydrive5/.tmp/app/admin/forms/formItemsModal.html",
-		"/home/paul/Code/fundraiser/mydrive5/node_modules/karma/node_modules/log4js/examples/flush-on-exit.js",
-		"/home/paul/Code/fundraiser/mydrive5/.tmp/app/admin/forms/formItems.js",
-		"/home/paul/Code/fundraiser/mydrive5/.tmp/app/admin/forms/formItems.html",
-		"/home/paul/Code/fundraiser/mydrive5/client/app/admin/forms/forms.coffee",
-		"/home/paul/Code/fundraiser/mydrive5/node_modules/grunt-protractor-runner/node_modules/protractor/node_modules/selenium-webdriver/lib/test/data/formSelectionPage.html",
-		"/home/paul/Code/fundraiser/mydrive5/client/app/admin/media/media.scss",
-		"/home/paul/Code/fundraiser/mydrive5/.tmp/app/admin/sites/site/siteSettings/siteSettings.js"
+		"/home/paul/Code/fundraiser/mydrive5/public/app/site/site.coffee"
 	],
 	"find":
 	{
@@ -250,6 +223,40 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"icon",
+			"AppStore",
+			"Timestamp",
+			"request",
+			"loginRequest",
+			"httpGet",
+			"q",
+			"login",
+			"Promise",
+			"'src",
+			"src",
+			".test",
+			"inject",
+			"injectTask",
+			"inject",
+			"injector",
+			"assign",
+			"merge",
+			"AppStore",
+			"merge",
+			"material",
+			"http",
+			"reportFinished",
+			"config",
+			"reactify",
+			"callback()",
+			"reportFinished",
+			"config",
+			"streamify",
+			"bundleConfig",
+			"uglify",
+			"bundleLogger",
+			"global",
+			"notify",
 			"Link",
 			"es5",
 			"(",
@@ -343,41 +350,7 @@
 			"console",
 			"get",
 			"60",
-			"finance",
-			"toke",
-			"port",
-			"socket",
-			"isAdminState",
-			"www",
-			"app.",
-			"app.admin",
-			"app",
-			"clean",
-			"injector",
-			"injector:scripts",
-			"ckeditor",
-			"ngTemplates",
-			"isCOllapsed",
-			"150",
-			"headroom.js",
-			"headroom",
-			"Headroom",
-			"headroom",
-			"service",
-			"newSite",
-			"\n  ",
-			"console.log",
-			"console",
-			"consol",
-			"copy",
-			"ckeditor",
-			"wiredep",
-			"tick",
-			"service",
-			"editorOptions",
-			"config.public",
-			"navigationItems",
-			"goTo"
+			"finance"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -395,129 +368,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "client/app/src/app.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1224,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								721,
-								721
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/ReactJS/syntax/jsx/tmLanguage/JavaScript (JSX).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": -0.0,
-						"translation.y": 180.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "gulpfile.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6073,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4534,
-								4534
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1939.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "client/app/src/routes.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1056,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								171,
-								171
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/ReactJS/syntax/jsx/tmLanguage/JavaScript (JSX).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": -0.0,
-						"translation.y": 90.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "client/app/styles/main.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 699,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								336,
-								336
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -580,16 +432,92 @@
 		"selected_items":
 		[
 			[
-				"gulpfil",
+				"browser",
+				"gulp/browserify.js"
+			],
+			[
+				"gulfpil",
 				"gulpfile.js"
 			],
 			[
-				"routes",
-				"server/routes.js"
+				"icon-but",
+				"node_modules/material-ui/src/js/icon-button.jsx"
+			],
+			[
+				"appsto",
+				"client/app/stores/AppStore.js"
+			],
+			[
+				"app",
+				"server/app.js"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
 			],
 			[
 				"pack",
 				"package.json"
+			],
+			[
+				"objectassign",
+				"node_modules/react/lib/Object.assign.js"
+			],
+			[
+				"style",
+				"gulp/style.js"
+			],
+			[
+				"test",
+				"client/app/src/controllers/test.less"
+			],
+			[
+				"tes",
+				"client/app/src/controllers/test.less"
+			],
+			[
+				"test.less",
+				"client/app/src/controllers/test.less"
+			],
+			[
+				"gulfi",
+				"gulpfile.js"
+			],
+			[
+				"gruntfile",
+				"node_modules/composable-middleware/Gruntfile.js"
+			],
+			[
+				"gulpfil",
+				"gulpfile.js"
+			],
+			[
+				"gulpstyle",
+				"gulp/style.js"
+			],
+			[
+				"material-uireact",
+				"node_modules/material-ui/node_modules/react/react.js"
+			],
+			[
+				"materialuireact",
+				"node_modules/material-ui/node_modules/react/dist/react.js"
+			],
+			[
+				"reactpack",
+				"node_modules/react/package.json"
+			],
+			[
+				"materialpack",
+				"node_modules/material-ui/package.json"
+			],
+			[
+				"app.js",
+				"server/app.js"
+			],
+			[
+				"routes",
+				"server/routes.js"
 			],
 			[
 				"package",
@@ -606,14 +534,6 @@
 			[
 				"gulf",
 				"gulpfile.js"
-			],
-			[
-				"gruntfile",
-				"Gruntfile.js"
-			],
-			[
-				"app.js",
-				"server/app.js"
 			],
 			[
 				"express",
@@ -1022,74 +942,6 @@
 			[
 				"rout",
 				"server/routes.js"
-			],
-			[
-				"subscriberin",
-				"server/api/data/subscriber/index.js"
-			],
-			[
-				"account.coff",
-				"client/app/account/account.coffee"
-			],
-			[
-				"navbar.ja",
-				"client/components/navbar/navbar.jade"
-			],
-			[
-				"stripepass",
-				"server/auth/stripe/passport.js"
-			],
-			[
-				"seed.js",
-				"server/config/seed.js"
-			],
-			[
-				"local.env",
-				"server/config/local.env.js"
-			],
-			[
-				"configinde",
-				"server/config/environment/index.js"
-			],
-			[
-				"googlestrategy",
-				"node_modules/passport-google-oauth/node_modules/passport-oauth/node_modules/passport/lib/passport/strategy.js"
-			],
-			[
-				"passport",
-				"server/auth/google/passport.js"
-			],
-			[
-				"datajade",
-				"client/app/admin/data/data.jade"
-			],
-			[
-				"local.en",
-				"server/config/local.env.js"
-			],
-			[
-				"subscribmod",
-				"server/api/data/subscriber/subscriber.model.js"
-			],
-			[
-				"socketio",
-				"server/config/socketio.js"
-			],
-			[
-				"subscriptionform.dir",
-				"client/components/mysite/subscriptionForm/subscriptionForm.directive.coffee"
-			],
-			[
-				"defaultlayou",
-				"client/components/mysite/myPage/templates/layouts/defaultLayout.jade"
-			],
-			[
-				"routes.js",
-				"server/routes.js"
-			],
-			[
-				"image.con",
-				"server/api/image/image.controller.js"
 			]
 		],
 		"width": 0.0
@@ -1118,7 +970,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 355.0,
+	"side_bar_width": 316.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
