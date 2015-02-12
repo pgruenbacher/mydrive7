@@ -58,7 +58,7 @@ var config = {
   // },
   Less: {
     src: src + '/styles/less/main.less',
-    watch: src +'/styles/**/*.less',
+    watch: [src +'/styles/**/*.less', src+'/app/**/*.less'],
     dest: dest
   },
   markup: {
@@ -79,7 +79,7 @@ var config = {
     // A separate bundle will be generated for each
     // bundle config in the list below
     bundleConfigs: [{
-      entries: src + '/app/client.js',
+      entries: src + '/app/client.jsx',
       dest: dest,
       outputName: 'main.js',
       dependencies: dependencies

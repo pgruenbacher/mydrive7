@@ -8,6 +8,9 @@ var prettyHrtime = require('pretty-hrtime');
 var startTime;
 
 module.exports = {
+  announce:function(message){
+    gutil.log(message);
+  },
   start: function(filepath) {
     startTime = process.hrtime();
     gutil.log('Bundling', gutil.colors.green(filepath) + '...');

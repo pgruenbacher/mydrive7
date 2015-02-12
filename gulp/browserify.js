@@ -57,9 +57,11 @@ var browserifier =function(config, options, callback) {
     };
 
     if(options.development) {
+      bundleLogger.announce('watching');
       // Wrap with watchify and rebundle on changes
       watcher = watchify(bundler);
       // Rebundle on update
+
       watcher.on('update', bundle);
     }
 

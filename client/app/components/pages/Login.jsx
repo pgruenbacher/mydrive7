@@ -7,13 +7,17 @@
 var React = require('react');
 
 // var AppStore = require('../stores/AppStore');
-var AppActions = require('../actions/AppActions');
+var AppActions = require('../../actions/AppActions');
 
-var NAV = require('./NavBar.jsx');
-var BANNER = require('./Banner.jsx');
+// var NAV = require('./NavBar.jsx');
+// var BANNER = require('./Banner.jsx');
 
-// var mui=require('material-ui');
-// var RaisedButton=mui.RaisedButton;
+var mui=require('material-ui');
+var RaisedButton=mui.RaisedButton;
+var Tooltip = mui.Tooltip;
+
+var TooltipHover = require('../elements/toolTipHover.jsx');
+
 
 var LOGIN  = React.createClass({
 
@@ -32,7 +36,11 @@ var LOGIN  = React.createClass({
         <h1>material-ui</h1>
         <h2>example project</h2>
 
-
+        <RaisedButton label="Secondary" secondary={true} onClick={this.handleClick}></RaisedButton>
+        <div>asdlfkj</div>
+        <TooltipHover label="This is a tooltip">
+          <RaisedButton label="Secondary" secondary={true} onClick={this.handleClick}></RaisedButton>
+        </TooltipHover>
       </div>
       // <div>
       //   <div className="container">

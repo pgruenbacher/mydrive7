@@ -5,9 +5,11 @@
  */
 'use strict';
 var React = require('react');
-var Nav = require('./NavBar.jsx');
-var Home = require('./Home.jsx');
-var Login = require('./Login.jsx');
+var Nav = require('./layouts/NavBar.jsx');
+var Home = require('./pages/Home.jsx');
+var Login = require('./pages/Login.jsx');
+var Signup = require('./pages/Signup.jsx');
+var SideNav = require('./pages/SideNav.jsx');
 // var About = require('./About.jsx');
 // var Page = require('./Page.jsx');
 var ApplicationStore = require('../stores/ApplicationStore');
@@ -29,19 +31,29 @@ var Application = React.createClass({
     },
     render: function () {
         var output = '';
+        console.log('render mydrive',this.state.currentPageName);
         //choose the right page based on the route
         switch (this.state.currentPageName) {
             case 'home':
+                output = <Home/>;
+                break;
+            case 'about':
                 output = <Login/>;
                 break;
-            // case 'about':
-            //     output = <About/>;
+            case 'login':
+                output = <Login/>;
+                break;
+            case 'signup':
+                output = <Signup/>;
+                break;
+            case 'sidenav':
+                output = <SideNav/>;
                 break;
         }
         //render content
+        // <Nav selected={this.state.currentPageName} links={this.state.pages} />
         return (
             <div>
-                <Nav selected={this.state.currentPageName} links={this.state.pages} />
                 {output}
             </div>
         );

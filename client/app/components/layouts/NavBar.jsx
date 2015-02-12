@@ -5,6 +5,10 @@
 var React = require('react');
 var NavLink = require('flux-router-component').NavLink;
 
+var mui = require('material-ui');
+var Toolbar = mui.Toolbar;
+var ToolbarGroup = mui.ToolbarGroup;
+
 var Nav = React.createClass({
     getDefaultProps: function () {
         return {
@@ -29,43 +33,13 @@ var Nav = React.createClass({
                 );
             });
         return (
-            <ul className="">
-                {linkHTML}
-            </ul>
+            <Toolbar>
+                <ToolbarGroup key={0} float="left">
+                    {linkHTML}
+                </ToolbarGroup>
+            </Toolbar>
         );
     }
 });
 
 module.exports = Nav;
-
-
-// 'use strict';
-
-// var React = require('react');
-
-// var AppStore = require('../stores/AppStore');
-// var AppActions = require('../actions/AppActions');
-
-// var Router = require('react-router');
-// var Link = Router.Link;
-
-// function getAppState(){
-//   return AppStore.getData();
-// };
-
-// var NAV = React.createClass({
-  
-//   render: function(){
-//     return (
-//       <nav className="navbar navbar-default" role="navigation">
-//         <Link className="navbar-brand" to="home">MyDrive5</Link>
-//         <ul className="nav navbar-nav navbar-right">
-//           <li><Link to="signup">Signup</Link></li>
-//           <li><Link className="login" to="login">Login</Link></li>
-//         </ul>
-//       </nav>
-//     );
-//   }
-// })
-
-// module.exports = NAV;

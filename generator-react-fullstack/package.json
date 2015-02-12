@@ -1,0 +1,12 @@
+{
+  "name": "generator-react-fullstack",
+  "version": "0.1.0",
+  "description": "generator for react fullstack",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "Swipe": "git://github.com/pgruenbacher/swipe",
+    "yeoman-generator": "^0.18.8"
+  }
+}

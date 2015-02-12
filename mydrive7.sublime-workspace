@@ -15,6 +15,30 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "client/app/routes/routes.js",
+			"settings":
+			{
+				"buffer_size": 1576,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/app/actions/NavActions.js",
+			"settings":
+			{
+				"buffer_size": 413,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "server/config/react.js",
+			"settings":
+			{
+				"buffer_size": 1340,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -72,36 +96,73 @@
 		"/home/paul/Code/fundraiser/mydrive7",
 		"/home/paul/Code/fundraiser/mydrive7/client",
 		"/home/paul/Code/fundraiser/mydrive7/client/app",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/actions",
 		"/home/paul/Code/fundraiser/mydrive7/client/app/components",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/routes",
 		"/home/paul/Code/fundraiser/mydrive7/client/app/stores",
-		"/home/paul/Code/fundraiser/mydrive7/server"
+		"/home/paul/Code/fundraiser/mydrive7/server",
+		"/home/paul/Code/fundraiser/mydrive7/server/config"
 	],
 	"file_history":
 	[
-		"/home/paul/Code/fundraiser/mydrive7/client/app/components/Login.jsx",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/stores/AppStore.js",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/components/MyDrive.jsx",
-		"/home/paul/Code/fundraiser/mydrive7/server/app.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/react/react.js",
+		"/home/paul/Code/fundraiser/mydrive7/server/config/react.js",
+		"/home/paul/Code/fundraiser/mydrive7/README.md",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/react/lib/ReactElement.js",
 		"/home/paul/Code/fundraiser/mydrive7/server/routes.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/components/MyDrive.jsx",
+		"/home/paul/Code/fundraiser/mydrive7/mydrive7.sublime-project",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/components/NavBar.jsx",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/flux-router-component/actions/navigate.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/actions/NavActions.js",
+		"/home/paul/Code/fundraiser/mydrive7/npm-debug.log",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/components/Login.jsx",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/components/pages/Signup.jsx",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/components/pages/Home.jsx",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/components/pages/Login.jsx",
+		"/home/paul/Code/fundraiser/mydrive7/server/server.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/browserify/test/standalone_events.js",
+		"/home/paul/Code/fundraiser/mydrive7/gulp/style.js",
+		"/home/paul/Code/fundraiser/mydrive7/server/config/express.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp-cssmin/node_modules/clean-css/lib/selectors/empty-removal.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/bluebird/LICENSE",
+		"/home/paul/Code/fundraiser/mydrive7/server/config/local.env.js",
+		"/home/paul/Code/fundraiser/mydrive7/gulp/config.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/example/src/less/custom-overrides.less",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/browserify/test/crypto_ig.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/react-router/modules/__tests__/Router-test.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/components/Html.jsx",
+		"/home/paul/Code/fundraiser/mydrive7/client/pindex.html",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp-less/node_modules/less/test/less/errors/property-interp-not-defined.less",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp-notify/node_modules/node-notifier/vendor/terminal-notifier.app/Contents/PkgInfo",
+		"/home/paul/Code/fundraiser/mydrive7/package.json",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/app.jsx",
+		"/home/paul/Code/fundraiser/mydrive7/gulpfile.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/routes.jsx",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/stores/ApplicationStore.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/preprocessor.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/client.jsx",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/routes/routes.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/components/Home.jsx",
+		"/home/paul/Code/fundraiser/mydrive7/gulp/utils/bundleLogger.js",
+		"/home/paul/Code/fundraiser/mydrive7/gulp/browserify.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/browserify/test/multi_bundle_unique.js",
+		"/home/paul/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/react-router/modules/utils/__tests__/History-test.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/body-parser/History.md",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp-util/lib/log.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/app.js",
+		"/home/paul/Code/fundraiser/mydrive7/server/config/seed.js",
+		"/home/paul/Code/fundraiser/mydrive7/server/app.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/stores/AppStore.js",
 		"/home/paul/Code/fundraiser/mydrive7/client/app/components/Footer.jsx",
 		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/src/js/icon-button.jsx",
-		"/home/paul/Code/fundraiser/mydrive7/gulpfile.js",
-		"/home/paul/Code/fundraiser/mydrive7/gulp/browserify.js",
 		"/home/paul/Code/fundraiser/mydrive7/node_modules/browserify/test/ignore/by-relative.js",
 		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/src/js/icon.jsx",
 		"/home/paul/Code/fundraiser/mydrive7/node_modules/browserify/test/hash_instance_context.js",
 		"/home/paul/Code/fundraiser/mydrive7/client/index.html",
 		"/home/paul/Code/fundraiser/mydrive7/client/app/client.js",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/app.js",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/components/NavBar.jsx",
-		"/home/paul/Code/fundraiser/mydrive7/package.json",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/app.jsx",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/routes/routes.js",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/stores/ApplicationStore.js",
 		"/home/paul/Code/fundraiser/mydrive7/client/app/stores/PageStore.js",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/actions/NavActions.js",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/routes.jsx",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/components/Html.jsx",
 		"/home/paul/Code/fundraiser/mydrive7/client/app/services/user/UserActions.js",
 		"/home/paul/Code/fundraiser/mydrive7/client/app/services/UserStore.js",
 		"/home/paul/Code/fundraiser/mydrive7/client/app/services/UserContants.js",
@@ -117,14 +178,12 @@
 		"/home/paul/Code/fundraiser/mydrive7/node_modules/browserify/test/field/object.js",
 		"/home/paul/Code/fundraiser/mydrive7/node_modules/react-addons/lib/objMap.js",
 		"/home/paul/Code/fundraiser/mydrive7/client/styles/less/overwrite.less",
-		"/home/paul/Code/fundraiser/mydrive7/gulp/style.js",
 		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp-nodemon/node_modules/colors/tests/safe-test.js",
 		"/home/paul/Code/fundraiser/mydrive7/gulp/inject.js",
 		"/home/paul/Code/fundraiser/mydrive7/client/app/src/controllers/test.less",
 		"/home/paul/Code/fundraiser/mydrive7/node_modules/browserify/test/tr_error.js",
 		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp-cssmin/test.js",
 		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp-concat/test/test-stream.js",
-		"/home/paul/Code/fundraiser/mydrive7/server/config/seed.js",
 		"/home/paul/Code/fundraiser/mydrive7/client/app/styles/less/main.less",
 		"/home/paul/Code/fundraiser/mydrive7/client/app/src/components/banner.less",
 		"/home/paul/Code/fundraiser/mydrive7/node_modules/composable-middleware/Gruntfile.js",
@@ -147,7 +206,6 @@
 		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/docs/src/www/images/material-ui-logo.svg",
 		"/home/paul/Code/fundraiser/mydrive7/node_modules/jest-cli/node_modules/node-haste/__tests__/MapUpdateTask-test.js",
 		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp-uglify/node_modules/uglify-js/lib/mozilla-ast.js",
-		"/home/paul/Code/fundraiser/mydrive7/mydrive7.sublime-project",
 		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/node_modules/react/dist/react.js",
 		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/src/less/material-ui-icons/fonts/material-ui-icons.svg",
 		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/node_modules/react/lib/ReactElementValidator.js",
@@ -159,20 +217,14 @@
 		"/home/paul/Code/fundraiser/mydrive7/node_modules/react/lib/ReactPropTypeLocations.js",
 		"/home/paul/Code/fundraiser/mydrive7/node_modules/react/lib/ReactPropTransferer.js",
 		"/home/paul/Code/fundraiser/mydrive7/node_modules/react/lib/ReactPerf.js",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/react/react.js",
-		"/home/paul/Code/fundraiser/mydrive7/README.md",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/react/lib/ReactElement.js",
 		"/home/paul/Code/fundraiser/mydrive7/client/app/src/components/Signup.jsx",
-		"/home/paul/Code/fundraiser/mydrive7/gulp/config.js",
 		"/home/paul/Code/fundraiser/mydrive7/gulp/utils/handleErrors.js",
-		"/home/paul/Code/fundraiser/mydrive7/gulp/utils/bundleLogger.js",
 		"/home/paul/Code/fundraiser/mydrive7/client/app/styles/main.less",
 		"/home/paul/Code/fundraiser/mydrive7/.gitignore",
 		"/home/paul/Code/fundraiser/mydrive7/client/app/src/components/Main.jsx",
 		"/home/paul/Code/fundraiser/mydrive7/client/app/src/components/NavBar.jsx",
 		"/home/paul/Code/fundraiser/mydrive7/client/build/main.js",
 		"/home/paul/Code/fundraiser/mydrive7/client/app/styles/main.scss",
-		"/home/paul/Code/fundraiser/mydrive7/server/config/express.js",
 		"/home/paul/Code/fundraiser/mydrive7/node_modules/react-router/modules/mixins/Navigation.js",
 		"/home/paul/Code/fundraiser/mydrive7/node_modules/browserify/node_modules/events/tests/num-args.js",
 		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp-nodemon/node_modules/.bin/nodemon",
@@ -180,32 +232,7 @@
 		"/home/paul/Code/fundraiser/mydrive7/node_modules/browserify/node_modules/syntax-error/node_modules/acorn/test/driver.js",
 		"/home/paul/Code/fundraiser/mydrive7/node_modules/jest-cli/node_modules/jsdom/node_modules/cssstyle/lib/properties/playDuring.js",
 		"/home/paul/Code/fundraiser/mydrive7/node_modules/react/lib/SyntheticDragEvent.js",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/jest-cli/src/HasteModuleLoader/__tests__/test_root/subdir1/MyModule.js",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/ejs/Makefile",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/react/lib/getUnboundedScrollPosition.js",
-		"/home/paul/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/src/components/Item.jsx",
-		"/home/paul/Code/fundraiser/mydrive5/node_modules/grunt-karma/test/grunt-karma-test.js",
-		"/home/paul/Code/fundraiser/mydrive5/server/app.js",
-		"/home/paul/Code/fundraiser/mydrive5/Gruntfile.js",
-		"/home/paul/Code/fundraiser/mydrive5/server/config/express.js",
-		"/home/paul/Code/fundraiser/mydrive5/node_modules/supertest/example.js",
-		"/home/paul/Code/fundraiser/mydrive5/client/app/app.coffee",
-		"/home/paul/Code/fundraiser/mydrive5/node_modules/sequelize-cli/gulpfile.js",
-		"/home/paul/Code/fundraiser/mydrive5/bower.json",
-		"/home/paul/Code/fundraiser/mydrive5/package.json",
-		"/home/paul/Code/fundraiser/mydrive5/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/npmconf/node_modules/uid-number/get-uid-gid.js",
-		"/home/paul/Code/fundraiser/mydrive5/.sass-cache/af1289ca7f010b3d69f8884f2e2c729a035d2186/_background-origin.scssc",
-		"/home/paul/Code/fundraiser/mydrive5/client/components/mysite/subscriptionForm/subscriptionForm.directive.coffee",
-		"/home/paul/Code/fundraiser/mydrive5/server/api/data/subscriber/subscriber.model.js",
-		"/home/paul/Code/fundraiser/mydrive5/public/app/site/site.controller.coffee",
-		"/home/paul/Code/fundraiser/mydrive5/server/api/site/site.controller.js",
-		"/home/paul/Code/fundraiser/mydrive5/server/api/data/subscriber/subscriber.controller.js",
-		"/home/paul/Code/fundraiser/mydrive5/server/api/data/subscriber/index.js",
-		"/home/paul/Code/fundraiser/mydrive5/client/bower_components/SHA-1/sha1.js",
-		"/home/paul/Code/fundraiser/mydrive5/client/app/services/sites/sites.service.coffee",
-		"/home/paul/Code/fundraiser/mydrive5/node_modules/sequelize-cli/node_modules/gulp/node_modules/vinyl-fs/lib/dest/writeContents.js",
-		"/home/paul/Code/fundraiser/mydrive5/public/app/site/site.coffee"
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/jest-cli/src/HasteModuleLoader/__tests__/test_root/subdir1/MyModule.js"
 	],
 	"find":
 	{
@@ -223,6 +250,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"state.pages",
+			"output",
+			"watchify",
+			"browserify",
+			"nodemon",
+			"exposed",
+			"bundle(",
 			"icon",
 			"AppStore",
 			"Timestamp",
@@ -343,14 +377,7 @@
 			"groupName",
 			"jquery",
 			"$modal",
-			"dynamic",
-			"Templates",
-			"templates",
-			"init()",
-			"console",
-			"get",
-			"60",
-			"finance"
+			"dynamic"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -368,8 +395,96 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "client/app/routes/routes.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1576,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "client/app/actions/NavActions.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 413,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "server/config/react.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1340,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -432,8 +547,88 @@
 		"selected_items":
 		[
 			[
+				"react.js",
+				"server/config/react.js"
+			],
+			[
+				"mydr",
+				"client/app/components/MyDrive.jsx"
+			],
+			[
+				"navbar",
+				"client/app/components/NavBar.jsx"
+			],
+			[
+				"server",
+				"server/server.js"
+			],
+			[
+				"routes",
+				"server/routes.js"
+			],
+			[
+				"reac",
+				"server/config/react.js"
+			],
+			[
+				"login.j",
+				"client/app/components/Login.jsx"
+			],
+			[
+				"rotues",
+				"server/routes.js"
+			],
+			[
+				"react",
+				"server/config/react.js"
+			],
+			[
+				"pind",
+				"client/pindex.html"
+			],
+			[
+				"html",
+				"client/app/components/Html.jsx"
+			],
+			[
+				"html.js",
+				"client/app/components/Html.jsx"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"bundle",
+				"gulp/utils/bundleLogger.js"
+			],
+			[
 				"browser",
 				"gulp/browserify.js"
+			],
+			[
+				"html.",
+				"client/app/components/Html.jsx"
+			],
+			[
+				"login.",
+				"client/app/components/Login.jsx"
+			],
+			[
+				"seed.js",
+				"server/config/seed.js"
+			],
+			[
+				"app",
+				"server/app.js"
+			],
+			[
+				"brow",
+				"gulp/browserify.js"
+			],
+			[
+				"gulpfil",
+				"gulpfile.js"
 			],
 			[
 				"gulfpil",
@@ -446,14 +641,6 @@
 			[
 				"appsto",
 				"client/app/stores/AppStore.js"
-			],
-			[
-				"app",
-				"server/app.js"
-			],
-			[
-				"gulp",
-				"gulpfile.js"
 			],
 			[
 				"pack",
@@ -488,10 +675,6 @@
 				"node_modules/composable-middleware/Gruntfile.js"
 			],
 			[
-				"gulpfil",
-				"gulpfile.js"
-			],
-			[
 				"gulpstyle",
 				"gulp/style.js"
 			],
@@ -514,10 +697,6 @@
 			[
 				"app.js",
 				"server/app.js"
-			],
-			[
-				"routes",
-				"server/routes.js"
 			],
 			[
 				"package",
@@ -728,10 +907,6 @@
 				"client/app/admin/sites/site/siteSettings/siteSettings.jade"
 			],
 			[
-				"navbar",
-				"client/components/navbar/navbar.jade"
-			],
-			[
 				"data.jad",
 				"client/app/admin/data/data.jade"
 			],
@@ -882,66 +1057,6 @@
 			[
 				"googlepas",
 				"server/auth/google/passport.js"
-			],
-			[
-				"login.co",
-				"client/app/account/login/login.controller.coffee"
-			],
-			[
-				"login.con",
-				"client/app/account/login/login.controller.coffee"
-			],
-			[
-				"googlepassp",
-				"server/auth/google/passport.js"
-			],
-			[
-				"googleinde",
-				"server/auth/google/index.js"
-			],
-			[
-				"subscriberinde",
-				"server/api/data/subscriber/index.js"
-			],
-			[
-				"googlestrate",
-				"node_modules/passport-google-oauth/node_modules/passport-oauth/node_modules/passport/lib/passport/strategy.js"
-			],
-			[
-				"subscriberind",
-				"server/api/data/subscriber/index.js"
-			],
-			[
-				"authservi",
-				"server/auth/auth.service.js"
-			],
-			[
-				"passpor",
-				"server/auth/google/passport.js"
-			],
-			[
-				"passport-google",
-				"node_modules/passport-google-oauth/lib/passport-google-oauth/index.js"
-			],
-			[
-				"pass",
-				"server/auth/google/passport.js"
-			],
-			[
-				"formind",
-				"server/api/form/index.js"
-			],
-			[
-				"forminde",
-				"server/api/form/index.js"
-			],
-			[
-				"usercon",
-				"server/api/user/user.controller.js"
-			],
-			[
-				"rout",
-				"server/routes.js"
 			]
 		],
 		"width": 0.0

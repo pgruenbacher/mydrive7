@@ -24,7 +24,7 @@ var app = new Fluxible({
 });
 
 app.plug(fetchrPlugin({
-    xhrPath: '/api'
+    xhrPath: '/resources'
 }));
 
 app.plug(routrPlugin({

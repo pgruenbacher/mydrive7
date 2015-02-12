@@ -8,13 +8,13 @@
 var React = require('react');
 var debug = require('debug');
 var bootstrapDebug = debug('mydrive');
-var app = require('./app');
+var app = require('./app.jsx');
 var dehydratedState = window.App; // Sent from the server
 
 window.React = React; // For chrome dev tool support
 debug.enable('*');
 
-bootstrapDebug('rehydrating app');
+// bootstrapDebug('rehydrating app');
 app.rehydrate(dehydratedState, function (err, context) {
     if (err) {
         throw err;
@@ -22,10 +22,10 @@ app.rehydrate(dehydratedState, function (err, context) {
     window.context = context;
     var mountNode = document.getElementById('app');
 
-    bootstrapDebug('React Rendering');
+    // bootstrapDebug('React Rendering');
     React.withContext(context.getComponentContext(), function () {
         React.render(app.getAppComponent()(), mountNode, function () {
-            bootstrapDebug('React Rendered');
+            // bootstrapDebug('React Rendered');
         });
     });
 });

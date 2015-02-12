@@ -2,15 +2,20 @@
 /**
  * Main application file
  */
-
 'use strict';
-
 // Set default node environment to development
 process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 
+require('node-jsx').install({ extension: '.jsx' , harmony:true});
 var express = require('express');
 var mongoose = require('mongoose');
 var config = require('./config/environment');
+var bodyParser = require('body-parser');
+var cookieParser = require('cookie-parser');
+var csrf = require('csurf');
+var clientApp = require('../client/app/app.jsx');
+
+
 
 
 
@@ -23,6 +28,23 @@ if(config.seedDB) { require('./config/seed'); }
 
 // Setup server
 var app = express();
+
+
+
+app.use(cookieParser());
+app.use(bodyParser.json());
+app.use(csrf({cookie: true}));
+
+
+
+// Get access to the fetchr plugin instance
+var fetchrPlugin = clientApp.getPlugin('FetchrPlugin');
+// Register our messages REST service
+fetchrPlugin.registerService(require('./services/message'));
+// Set up the fetchr middleware
+app.use(fetchrPlugin.getXhrPath(), fetchrPlugin.getMiddleware());
+
+
 var server = require('http').createServer(app);
 require('./config/express')(app);
 require('./routes')(app);
