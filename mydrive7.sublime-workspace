@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"e",
+				"email"
+			],
+			[
 				"formExample",
 				"formExamplesModalCtrl"
 			],
@@ -16,26 +20,50 @@
 	"buffers":
 	[
 		{
+			"file": "client/app/components/pages/admin/admin.jsx",
+			"settings":
+			{
+				"buffer_size": 818,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/app/components/MyDrive.jsx",
+			"settings":
+			{
+				"buffer_size": 2318,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "client/app/routes/routes.js",
 			"settings":
 			{
-				"buffer_size": 1576,
+				"buffer_size": 2240,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "client/app/actions/NavActions.js",
+			"file": "client/app/components/layouts/navbar/NavBar.jsx",
 			"settings":
 			{
-				"buffer_size": 413,
+				"buffer_size": 4679,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "server/config/react.js",
+			"file": "client/app/stores/ApplicationStore.js",
 			"settings":
 			{
-				"buffer_size": 1340,
+				"buffer_size": 2615,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/app/stores/SessionStore.js",
+			"settings":
+			{
+				"buffer_size": 1276,
 				"line_ending": "Unix"
 			}
 		}
@@ -46,6 +74,10 @@
 		"height": 368.0,
 		"selected_items":
 		[
+			[
+				"pack in",
+				"Package Control: Install Package"
+			],
 			[
 				"package in",
 				"Package Control: Install Package"
@@ -96,143 +128,151 @@
 		"/home/paul/Code/fundraiser/mydrive7",
 		"/home/paul/Code/fundraiser/mydrive7/client",
 		"/home/paul/Code/fundraiser/mydrive7/client/app",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/actions",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/components",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/components/forms/address",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/components/pages/admin",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/components/pages/signup",
 		"/home/paul/Code/fundraiser/mydrive7/client/app/routes",
 		"/home/paul/Code/fundraiser/mydrive7/client/app/stores",
-		"/home/paul/Code/fundraiser/mydrive7/server",
-		"/home/paul/Code/fundraiser/mydrive7/server/config"
+		"/home/paul/Code/fundraiser/mydrive7/client/styles/less",
+		"/home/paul/Code/fundraiser/mydrive7/lib/cookie-parser",
+		"/home/paul/Code/fundraiser/mydrive7/lib/math",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/fluxible-plugin-fetchr/lib",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/fluxible-plugin-fetchr/node_modules",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/fluxible-plugin-fetchr/node_modules/fetchr",
+		"/home/paul/Code/fundraiser/mydrive7/server/auth/local",
+		"/home/paul/Code/fundraiser/mydrive7/server/auth/stripe",
+		"/home/paul/Code/fundraiser/mydrive7/server/config/environment"
 	],
 	"file_history":
 	[
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/react/react.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp-sass/node_modules/node-sass/src/libsass/ast_def_macros.hpp",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/through/test/auto-destroy.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/app.jsx",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/react-bootstrap/NavItem.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/components/layouts/navbar/NavBar.jsx",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/components/pages/Login.jsx",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/bluebird/LICENSE",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/components/layouts/navbar/navbar.less",
+		"/home/paul/Code/fundraiser/mydrive7/server/api/user/user.model.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/ejs/test/fixtures/user.ejs",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/fetcher/node_modules/mkdirp/test/umask_sync.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/cookies-js/UNLICENSE",
+		"/home/paul/Code/fundraiser/mydrive7/server/routes.js",
+		"/home/paul/Code/fundraiser/mydrive7/server/services/message.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/stores/PageStore.js",
+		"/home/paul/Code/fundraiser/mydrive7/package.json",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/actions/authentication/LoginActions.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/stores/ApplicationStore.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/routes/routes.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/components/MyDrive.jsx",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/express/lib/application.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/express-session/session/store.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/browserify/node_modules/JSONStream/test/stringify_object.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/pg/test/native/stress-tests.js",
+		"/home/paul/Code/fundraiser/mydrive7/server/config/seed.js",
+		"/home/paul/Code/fundraiser/mydrive7/server/auth/auth.service.js",
+		"/home/paul/Code/fundraiser/mydrive7/server/auth/stripe/passport.js",
+		"/home/paul/Code/fundraiser/mydrive7/server/auth/local/index.js",
+		"/home/paul/Code/fundraiser/mydrive7/server/auth/stripe/index.js",
+		"/home/paul/Code/fundraiser/mydrive7/server/config/environment/index.js",
+		"/home/paul/Code/fundraiser/mydrive7/gulpfile.js",
+		"/home/paul/Code/fundraiser/mydrive7/server/config/local.env.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/phantomjs/lib/location.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/browserify/node_modules/browser-resolve/test/local-coffee.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp-cssmin/gulpfile.js",
+		"/home/paul/Code/fundraiser/mydrive7/server/auth/index.js",
+		"/home/paul/Code/fundraiser/mydrive7/server/sqldb/index.js",
+		"/home/paul/Code/fundraiser/mydrive7/server/api/api.service.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/browserify/test/standalone_events.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/sequelize/lib/dialects/sqlite/data-types.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/sequelize/lib/sql-string.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/ejs/test/fixtures/single-quote.ejs",
+		"/home/paul/Code/fundraiser/mydrive7/server/auth/local/passport.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/components/forms/address/states.jsx",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/stores/SessionStore.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/components/pages/Signup.jsx",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/actions/authentication/SignupAction.js",
+		"/home/paul/Code/fundraiser/mydrive7/server/config/environment/development.js",
+		"/home/paul/Code/fundraiser/mydrive7/server/config/environment/production.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/components/pages/signup/signup.less",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/express-session/session/session.js",
+		"/home/paul/Code/fundraiser/mydrive7/server/server.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/react/lib/LocalEventTrapMixin.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/csurf/index.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/react-tools/src/core/shouldUpdateReactComponent.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp-autoprefixer/node_modules/autoprefixer-core/node_modules/caniuse-db/features-json/css-supports-api.json",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/fetcher/lib/copies-stuff.coffee",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp-connect/node_modules/connect/lib/middleware/csrf.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/client.jsx",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/fetcher/node_modules/rimraf/AUTHORS",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp-less/node_modules/less/test/less/errors/add-mixed-units.less",
 		"/home/paul/Code/fundraiser/mydrive7/server/config/react.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/fluxible-plugin-fetchr/lib/fetchr-plugin.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/fetcher/lib/fetcher.coffee",
 		"/home/paul/Code/fundraiser/mydrive7/README.md",
 		"/home/paul/Code/fundraiser/mydrive7/node_modules/react/lib/ReactElement.js",
-		"/home/paul/Code/fundraiser/mydrive7/server/routes.js",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/components/MyDrive.jsx",
-		"/home/paul/Code/fundraiser/mydrive7/mydrive7.sublime-project",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/components/NavBar.jsx",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/flux-router-component/actions/navigate.js",
+		"/home/paul/Code/fundraiser/mydrive7/server/config/local.env.sample.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/styles/less/main.less",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/src/js/text-field.jsx",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/actions/AppActions.js",
 		"/home/paul/Code/fundraiser/mydrive7/client/app/actions/NavActions.js",
-		"/home/paul/Code/fundraiser/mydrive7/npm-debug.log",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/components/Login.jsx",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/components/pages/Signup.jsx",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/components/pages/Home.jsx",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/components/pages/Login.jsx",
-		"/home/paul/Code/fundraiser/mydrive7/server/server.js",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/browserify/test/standalone_events.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/stores/authentication/AuthenticationStore.js",
+		"/home/paul/Code/fundraiser/mydrive7/lib/cookie-parser/cookie-parser.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp-connect/node_modules/connect/examples/csrf.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp-autoprefixer/node_modules/autoprefixer-core/node_modules/caniuse-db/features-json/css-reflections.json",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp-jest/node_modules/jest-cli/src/__tests__/TestRunner-fs-test.js",
 		"/home/paul/Code/fundraiser/mydrive7/gulp/style.js",
-		"/home/paul/Code/fundraiser/mydrive7/server/config/express.js",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp-cssmin/node_modules/clean-css/lib/selectors/empty-removal.js",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/bluebird/LICENSE",
-		"/home/paul/Code/fundraiser/mydrive7/server/config/local.env.js",
-		"/home/paul/Code/fundraiser/mydrive7/gulp/config.js",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/example/src/less/custom-overrides.less",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/browserify/test/crypto_ig.js",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/react-router/modules/__tests__/Router-test.js",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/components/Html.jsx",
-		"/home/paul/Code/fundraiser/mydrive7/client/pindex.html",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp-less/node_modules/less/test/less/errors/property-interp-not-defined.less",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp-notify/node_modules/node-notifier/vendor/terminal-notifier.app/Contents/PkgInfo",
-		"/home/paul/Code/fundraiser/mydrive7/package.json",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/app.jsx",
-		"/home/paul/Code/fundraiser/mydrive7/gulpfile.js",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/routes.jsx",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/stores/ApplicationStore.js",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/preprocessor.js",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/client.jsx",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/routes/routes.js",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/components/Home.jsx",
-		"/home/paul/Code/fundraiser/mydrive7/gulp/utils/bundleLogger.js",
-		"/home/paul/Code/fundraiser/mydrive7/gulp/browserify.js",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/browserify/test/multi_bundle_unique.js",
-		"/home/paul/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/react-router/modules/utils/__tests__/History-test.js",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/body-parser/History.md",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp-util/lib/log.js",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/app.js",
-		"/home/paul/Code/fundraiser/mydrive7/server/config/seed.js",
-		"/home/paul/Code/fundraiser/mydrive7/server/app.js",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/stores/AppStore.js",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/components/Footer.jsx",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/src/js/icon-button.jsx",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/browserify/test/ignore/by-relative.js",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/src/js/icon.jsx",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/browserify/test/hash_instance_context.js",
-		"/home/paul/Code/fundraiser/mydrive7/client/index.html",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/client.js",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/stores/PageStore.js",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/services/user/UserActions.js",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/services/UserStore.js",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/services/UserContants.js",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/services/UserService.js",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/constants/AppConstants.js",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/services/UserActions.js",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/src/app.jsx",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/react-router/docs/guides/flux.md",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp-autoprefixer/node_modules/autoprefixer-core/node_modules/caniuse-db/features-json/font-loading.json",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp/completion/fish",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/react/lib/Object.assign.js",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/passport-google-oauth/node_modules/pkginfo/examples/object-argument.js",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/browserify/test/field/object.js",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/react-addons/lib/objMap.js",
-		"/home/paul/Code/fundraiser/mydrive7/client/styles/less/overwrite.less",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp-nodemon/node_modules/colors/tests/safe-test.js",
-		"/home/paul/Code/fundraiser/mydrive7/gulp/inject.js",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/src/controllers/test.less",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/superagent/superagent.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/phantomjs/node_modules/npmconf/lib/set-user.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/actions/authentication/login.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/jest-cli/node_modules/jsdom/node_modules/cssstyle/lib/properties/webkitTextFillColor.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/react/lib/escapeTextForBrowser.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/body-parser/lib/types/text.js",
 		"/home/paul/Code/fundraiser/mydrive7/node_modules/browserify/test/tr_error.js",
 		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp-cssmin/test.js",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp-concat/test/test-stream.js",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/styles/less/main.less",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/src/components/banner.less",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/composable-middleware/Gruntfile.js",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp/node_modules/orchestrator/lib/runTask.js",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/watchify/node_modules/browserify/test/global_recorder.js",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/src/routes.jsx",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/src/stores/AppStore.js",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/src/dispatchers/AppDispatcher.js",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/src/less/components/floating-action-button.less",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/src/constants/Buttonconstants.js",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/src/less/components/raised-button.less",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/styles/less/overwrite.less",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp-connect/node_modules/connect/examples/upload-stream.js",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/src/less/components/flat-button.less",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/src/less/components/icon-button.less",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/src/components/Login.jsx",
 		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/package.json",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/node_modules/react/react.js",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/README.md",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/docs/src/www/images/material-ui-logo.svg",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/jest-cli/node_modules/node-haste/__tests__/MapUpdateTask-test.js",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp-uglify/node_modules/uglify-js/lib/mozilla-ast.js",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/node_modules/react/dist/react.js",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/src/less/material-ui-icons/fonts/material-ui-icons.svg",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/node_modules/react/lib/ReactElementValidator.js",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/node_modules/react/lib/EnterLeaveEventPlugin.js",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/src/less/material-ui-icons/Read Me.txt",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/node_modules/react/dist/react-with-addons.js",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/node_modules/react/lib/forEachAccumulated.js",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/react/package.json",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/react/lib/ReactPropTypeLocations.js",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/react/lib/ReactPropTransferer.js",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/react/lib/ReactPerf.js",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/src/components/Signup.jsx",
-		"/home/paul/Code/fundraiser/mydrive7/gulp/utils/handleErrors.js",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/styles/main.less",
-		"/home/paul/Code/fundraiser/mydrive7/.gitignore",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/src/components/Main.jsx",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/src/components/NavBar.jsx",
-		"/home/paul/Code/fundraiser/mydrive7/client/build/main.js",
-		"/home/paul/Code/fundraiser/mydrive7/client/app/styles/main.scss",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/react-router/modules/mixins/Navigation.js",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/browserify/node_modules/events/tests/num-args.js",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp-nodemon/node_modules/.bin/nodemon",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/tiny-lr/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/draft75.js",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/browserify/node_modules/syntax-error/node_modules/acorn/test/driver.js",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/jest-cli/node_modules/jsdom/node_modules/cssstyle/lib/properties/playDuring.js",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/react/lib/SyntheticDragEvent.js",
-		"/home/paul/Code/fundraiser/mydrive7/node_modules/jest-cli/src/HasteModuleLoader/__tests__/test_root/subdir1/MyModule.js"
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/src/index.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/lib/index.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/react-bootstrap/Navbar.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/src/js/drop-down-icon.jsx",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/src/less/material-ui-icons/demo.html",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/src/less/components/drop-down-icon.less",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/src/less/components/icon.less",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/src/js/icon.jsx",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/components/interactives/imageCard/ImageCard.jsx",
+		"/home/paul/Code/fundraiser/mydrive7/client/assets/Images.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/src/js/icon-button.jsx",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/react-bootstrap/DropdownStateMixin.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/react-bootstrap/DropdownButton.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/fetcher/lib/downloads-recipes.coffee",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/debug/debug.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/flux-router-component/lib/RouterMixin.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/flux-router-component/.coveralls.yml",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/react-router/modules/__tests__/Router-test.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/debug/node.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp-autoprefixer/node_modules/vinyl-sourcemaps-apply/node_modules/source-map/build/assert-shim.js",
+		"/home/paul/Code/fundraiser/mydrive7/generator-react-fullstack/node_modules/yeoman-generator/node_modules/download/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/minimatch/node_modules/brace-expansion/test/bash-results.txt",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/flux-router-component/package.json",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/fluxible/lib/Fluxible.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp-autoprefixer/node_modules/autoprefixer-core/node_modules/caniuse-db/features-json/font-loading.json",
+		"/home/paul/Code/fundraiser/mydrive7/generator-react-fullstack/node_modules/yeoman-generator/node_modules/sinon/lib/sinon/util/fake_xdomain_request.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/flux-router-component/CONTRIBUTING.md",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp-streamify/node_modules/readable-stream/float.patch",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/browserify/node_modules/browserify-zlib/node_modules/pako/test/fixtures/samples/lorem_utf_100k.txt",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/components/layouts/NavBar.jsx",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/stores/AppStore.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/styles/less/overwrite.less",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/constants/AppConstants.less",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/src/less/components/app-bar.less",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/components/elements/popArrow/PopArrow.jsx",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/components/elements/popArrow/PopArrow.less",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/mongoose/examples/population/population-options.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/material-ui/src/less/components/icon-button.less",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/flux-router-component/actions/navigate.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp-autoprefixer/node_modules/autoprefixer-core/lib/old-value.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/react/lib/Object.assign.js",
+		"/home/paul/Code/fundraiser/mydrive7/client/app/actions/MessageActions.js",
+		"/home/paul/Code/fundraiser/mydrive7/node_modules/gulp-nodemon/node_modules/colors/tests/safe-test.js"
 	],
 	"find":
 	{
@@ -250,6 +290,85 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"pageTitle",
+			"requiredProcessEnv",
+			"getCurrentPage",
+			"app",
+			"hasRole",
+			"Fetchr",
+			"registerFetcher",
+			"onemail",
+			"username",
+			"defaultValue",
+			"value",
+			"value(",
+			"verifyToken",
+			"tokens",
+			"tokens.verify",
+			"getStore",
+			"')",
+			"material",
+			"class=",
+			"dispatchNavAction",
+			"Nav",
+			"Sidenav",
+			"url",
+			"z",
+			"z-index",
+			"previous",
+			"next",
+			"handleTap",
+			"images",
+			"message",
+			"isNavOpen",
+			"touchable",
+			"isNavOpen",
+			"touchable",
+			"opacity",
+			"state.scrollLeft",
+			"isNavOpen()",
+			"touchable",
+			"props.opacity",
+			"null",
+			"isNavOpen()",
+			"prevStyle",
+			"sideStyle",
+			"opacity",
+			"forceUPdate",
+			"timeout",
+			"checkAnimationEnd",
+			"this.props",
+			"getStyle",
+			"_measure",
+			"isNavOpen",
+			"handle tap",
+			"contentStyle",
+			"onTouchTap",
+			"scroller",
+			"button",
+			"this.scroller",
+			"TouchableArea",
+			"/**",
+			"props.button",
+			"var side",
+			"side",
+			"component",
+			"StaticContainer",
+			"StyleKeys",
+			"factory",
+			"swipe",
+			"Scroller",
+			"ZyngaScroller",
+			"wasEverOnGPU",
+			"linkHtml",
+			"resource",
+			"livereload",
+			"watch",
+			"less",
+			"className",
+			"state",
+			"getDefaultProps",
+			"setState",
 			"state.pages",
 			"output",
 			"watchify",
@@ -298,86 +417,7 @@
 			"lr",
 			"listen",
 			"reload",
-			"livereload",
-			"tmp",
-			"subdomain",
-			"authInterceptor",
-			"verifyToken",
-			"formItem",
-			"Sites",
-			"site",
-			"subdomain",
-			"injector",
-			"getOauthAcce",
-			"domain",
-			"validateJwt",
-			"initiate",
-			"User",
-			"Thing",
-			"User",
-			"google",
-			"reinit",
-			"ngAnimate",
-			"scope.avail",
-			"destination",
-			"ng-show",
-			"ng-if",
-			"fields",
-			"selects",
-			"options",
-			"selects",
-			"options",
-			"#5264AE",
-			"#d34336",
-			"#4fc24f",
-			"width",
-			".name",
-			"fieldName",
-			"state",
-			".length",
-			"core",
-			"textarea",
-			"paperInputDate",
-			"scope.",
-			"model",
-			"idx",
-			"$index",
-			"config",
-			"@include",
-			"ul",
-			"formItem.type",
-			"modern",
-			"datepickerPopup",
-			"datepicker",
-			"editMode",
-			"edit",
-			"btn-group",
-			"_",
-			"numPerPage",
-			"console",
-			"\n  ",
-			"console",
-			"save",
-			"site save",
-			"save",
-			"filtered",
-			"numPages",
-			"class=\"container",
-			"container",
-			"data-type",
-			"adding",
-			"subEditing",
-			"console",
-			"group",
-			"menuItems",
-			"group",
-			"groups",
-			"remove",
-			"group.save",
-			"groupName",
-			"jquery",
-			"$modal",
-			"dynamic"
+			"livereload"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -400,19 +440,79 @@
 			[
 				{
 					"buffer": 0,
-					"file": "client/app/routes/routes.js",
+					"file": "client/app/components/pages/admin/admin.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1576,
+						"buffer_size": 818,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								761,
+								761
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ReactJS/syntax/jsx/tmLanguage/JavaScript (JSX).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 105.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "client/app/components/MyDrive.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2318,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1829,
+								1829
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ReactJS/syntax/jsx/tmLanguage/JavaScript (JSX).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 392.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "client/app/routes/routes.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2240,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								52,
+								52
 							]
 						],
 						"settings":
@@ -422,67 +522,100 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 78.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "client/app/components/layouts/navbar/NavBar.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4679,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1440,
+								1440
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ReactJS/syntax/jsx/tmLanguage/JavaScript (JSX).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 624.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "client/app/actions/NavActions.js",
+					"buffer": 4,
+					"file": "client/app/stores/ApplicationStore.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 413,
+						"buffer_size": 2615,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "server/config/react.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1340,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								992,
+								992
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 90.0,
+						"translation.y": 39.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "client/app/stores/SessionStore.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1276,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								353,
+								353
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 78.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -547,24 +680,324 @@
 		"selected_items":
 		[
 			[
-				"react.js",
-				"server/config/react.js"
-			],
-			[
-				"mydr",
-				"client/app/components/MyDrive.jsx"
+				"admin",
+				"client/app/components/pages/admin/admin.jsx"
 			],
 			[
 				"navbar",
-				"client/app/components/NavBar.jsx"
+				"client/app/components/layouts/navbar/NavBar.jsx"
+			],
+			[
+				"login",
+				"client/app/components/pages/Login.jsx"
+			],
+			[
+				"navbar.jsx",
+				"client/app/components/layouts/navbar/NavBar.jsx"
+			],
+			[
+				"user.model",
+				"server/api/user/user.model.js"
+			],
+			[
+				"routes",
+				"client/app/routes/routes.js"
+			],
+			[
+				"applicationstore",
+				"client/app/stores/ApplicationStore.js"
+			],
+			[
+				"mydrive",
+				"client/app/components/MyDrive.jsx"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"loginactions",
+				"client/app/actions/authentication/LoginActions.js"
+			],
+			[
+				"navbar.le",
+				"client/app/components/layouts/navbar/navbar.less"
+			],
+			[
+				"stores",
+				"node_modules/express-session/session/store.js"
+			],
+			[
+				"auth.ser",
+				"server/auth/auth.service.js"
+			],
+			[
+				"",
+				"server/config/environment/index.js"
+			],
+			[
+				"local.env",
+				"server/config/local.env.js"
+			],
+			[
+				"gulfpi",
+				"gulpfile.js"
+			],
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"seed",
+				"server/config/seed.js"
+			],
+			[
+				"sqldb",
+				"server/sqldb/index.js"
+			],
+			[
+				"seed.js",
+				"server/config/seed.js"
+			],
+			[
+				"routes.js",
+				"server/routes.js"
+			],
+			[
+				"navbar.js",
+				"client/app/components/layouts/navbar/NavBar.jsx"
+			],
+			[
+				"sessionstore",
+				"client/app/stores/SessionStore.js"
+			],
+			[
+				"session",
+				"node_modules/express-session/session/session.js"
+			],
+			[
+				"localpass",
+				"server/auth/local/passport.js"
+			],
+			[
+				"localindex",
+				"server/auth/local/index.js"
+			],
+			[
+				"localinde",
+				"server/auth/local/index.js"
+			],
+			[
+				"csurf",
+				"node_modules/csurf/index.js"
+			],
+			[
+				"message",
+				"server/services/message.js"
 			],
 			[
 				"server",
 				"server/server.js"
 			],
 			[
-				"routes",
-				"server/routes.js"
+				"fetchr",
+				"node_modules/fetcher/lib/fetcher.coffee"
+			],
+			[
+				"react.j",
+				"server/config/react.js"
+			],
+			[
+				"react.js",
+				"server/config/react.js"
+			],
+			[
+				"loginaction",
+				"client/app/actions/authentication/LoginActions.js"
+			],
+			[
+				"login.jsx",
+				"client/app/components/pages/Login.jsx"
+			],
+			[
+				"client",
+				"client/app/client.jsx"
+			],
+			[
+				"app.jsx",
+				"client/app/app.jsx"
+			],
+			[
+				"app.js",
+				"client/app/app.jsx"
+			],
+			[
+				"csrf",
+				"node_modules/gulp-connect/node_modules/connect/lib/middleware/csrf.js"
+			],
+			[
+				"csurfindex",
+				"node_modules/csurf/index.js"
+			],
+			[
+				"serve",
+				"server/server.js"
+			],
+			[
+				"textfield",
+				"node_modules/material-ui/src/js/text-field.jsx"
+			],
+			[
+				"icon.les",
+				"node_modules/material-ui/src/less/components/drop-down-icon.less"
+			],
+			[
+				"icon.jsx",
+				"node_modules/material-ui/src/js/icon.jsx"
+			],
+			[
+				"dropdownicon",
+				"node_modules/material-ui/src/js/drop-down-icon.jsx"
+			],
+			[
+				"navitem",
+				"node_modules/react-bootstrap/NavItem.js"
+			],
+			[
+				"flux-router",
+				"node_modules/flux-router-component/lib/RouterMixin.js"
+			],
+			[
+				"poparro",
+				"client/app/components/elements/popArrow/PopArrow.less"
+			],
+			[
+				"poparr",
+				"client/app/components/elements/popArrow/PopArrow.jsx"
+			],
+			[
+				"navbar.less",
+				"client/app/components/layouts/navbar/navbar.less"
+			],
+			[
+				"navbar.les",
+				"client/app/components/layouts/navbar/navbar.less"
+			],
+			[
+				"appconsta",
+				"client/app/constants/AppConstants.less"
+			],
+			[
+				"overwrite",
+				"client/styles/less/overwrite.less"
+			],
+			[
+				"style",
+				"gulp/style.js"
+			],
+			[
+				"sidenav",
+				"client/app/components/layouts/SideNav.jsx"
+			],
+			[
+				"galle",
+				"client/app/components/pages/GalleryPage.jsx"
+			],
+			[
+				"viewer",
+				"client/app/components/interactives/imageCard/Viewer.jsx"
+			],
+			[
+				"leftnavcon",
+				"client/app/components/interactives/leftNav/LeftNavContainer.jsx"
+			],
+			[
+				"touchab",
+				"client/app/components/primitives/TouchableArea.jsx"
+			],
+			[
+				"leftnav",
+				"client/app/components/interactives/leftNav/LeftNavContainer.jsx"
+			],
+			[
+				"viewer.jsx",
+				"client/app/components/interactives/imageCard/Viewer.jsx"
+			],
+			[
+				"imagecardcon",
+				"client/app/components/interactives/imageCard/ImageCardContainer.jsx"
+			],
+			[
+				"touchable",
+				"client/app/components/primitives/TouchableArea.jsx"
+			],
+			[
+				"leftcon",
+				"client/app/components/interactives/leftNav/LeftNavContainer.jsx"
+			],
+			[
+				"static",
+				"client/app/components/primitives/StaticContainer.jsx"
+			],
+			[
+				"stylekeys",
+				"client/app/environment/StyleKeys.js"
+			],
+			[
+				"sidenav.jsx",
+				"client/app/components/pages/SideNav.jsx"
+			],
+			[
+				"app",
+				"client/app/app.jsx"
+			],
+			[
+				"animatable",
+				"client/app/components/primitives/AnimatableContainer.jsx"
+			],
+			[
+				"html",
+				"client/app/components/Html.jsx"
+			],
+			[
+				"pinde",
+				"client/pindex.html"
+			],
+			[
+				"html.jsx",
+				"client/app/components/Html.jsx"
+			],
+			[
+				"fetch",
+				"node_modules/fetcher/lib/fetcher.coffee"
+			],
+			[
+				"gul",
+				"node_modules/gulp-cssmin/gulpfile.js"
+			],
+			[
+				"gulfp",
+				"gulpfile.js"
+			],
+			[
+				"less",
+				"node_modules/material-ui/example/gulp/tasks/less.js"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"tooltip",
+				"node_modules/material-ui/src/js/tooltip.jsx"
+			],
+			[
+				"classable",
+				"node_modules/material-ui/src/js/mixins/classable.js"
+			],
+			[
+				"mydr",
+				"client/app/components/MyDrive.jsx"
 			],
 			[
 				"reac",
@@ -587,16 +1020,8 @@
 				"client/pindex.html"
 			],
 			[
-				"html",
-				"client/app/components/Html.jsx"
-			],
-			[
 				"html.js",
 				"client/app/components/Html.jsx"
-			],
-			[
-				"gulp",
-				"gulpfile.js"
 			],
 			[
 				"bundle",
@@ -613,14 +1038,6 @@
 			[
 				"login.",
 				"client/app/components/Login.jsx"
-			],
-			[
-				"seed.js",
-				"server/config/seed.js"
-			],
-			[
-				"app",
-				"server/app.js"
 			],
 			[
 				"brow",
@@ -643,16 +1060,8 @@
 				"client/app/stores/AppStore.js"
 			],
 			[
-				"pack",
-				"package.json"
-			],
-			[
 				"objectassign",
 				"node_modules/react/lib/Object.assign.js"
-			],
-			[
-				"style",
-				"gulp/style.js"
 			],
 			[
 				"test",
@@ -693,14 +1102,6 @@
 			[
 				"materialpack",
 				"node_modules/material-ui/package.json"
-			],
-			[
-				"app.js",
-				"server/app.js"
-			],
-			[
-				"package",
-				"package.json"
 			],
 			[
 				"expres",
@@ -789,274 +1190,6 @@
 			[
 				"siteservice",
 				"client/app/services/sites/sites.service.coffee"
-			],
-			[
-				"subscriptionfo",
-				"client/components/mysite/subscriptionForm/subscriptionForm.directive.coffee"
-			],
-			[
-				"subscriptionform.jade",
-				"client/components/mysite/subscriptionForm/subscriptionForm.jade"
-			],
-			[
-				"googleapioauth",
-				"node_modules/googleapis/apis/oauth2/v1.js"
-			],
-			[
-				"apiservi",
-				"server/api/api.service.js"
-			],
-			[
-				"googledrive",
-				"server/components/google/drive.js"
-			],
-			[
-				"stripest",
-				"server/components/stripe-passport/strategy.js"
-			],
-			[
-				"subscriberindex",
-				"server/api/data/subscriber/index.js"
-			],
-			[
-				"subscriptionform.di",
-				"client/components/mysite/subscriptionForm/subscriptionForm.directive.coffee"
-			],
-			[
-				"mybuttonmodal",
-				"client/app/admin/modals/myButtonModal.jade"
-			],
-			[
-				"mybutton.dir",
-				"client/components/mysite/myButton/myButton.directive.coffee"
-			],
-			[
-				"forms.servic",
-				"client/app/services/forms/forms.service.coffee"
-			],
-			[
-				"forms.jade",
-				"client/app/admin/forms/forms.jade"
-			],
-			[
-				"forms.ser",
-				"client/app/services/forms/forms.service.coffee"
-			],
-			[
-				"forms.con",
-				"client/app/admin/forms/forms.controller.coffee"
-			],
-			[
-				"formmodal",
-				"client/components/mysite/myForm/myFormModal.jade"
-			],
-			[
-				"myform.dir",
-				"client/components/mysite/myForm/myForm.directive.coffee"
-			],
-			[
-				"form.model",
-				"server/api/form/form.model.js"
-			],
-			[
-				"form.con",
-				"server/api/form/form.controller.js"
-			],
-			[
-				"mybutton",
-				"client/app/admin/modals/myButtonModal.jade"
-			],
-			[
-				"formcon",
-				"client/app/admin/forms/forms.controller.coffee"
-			],
-			[
-				"myform",
-				"client/components/mysite/myForm/myForm.jade"
-			],
-			[
-				"number.jad",
-				"client/components/mysite/myForm/fieldTemplates/number.jade"
-			],
-			[
-				"formitems.dir",
-				"client/app/admin/forms/formItems.directive.coffee"
-			],
-			[
-				"formitems.jade",
-				"client/app/admin/forms/formItems.jade"
-			],
-			[
-				"formitemjad",
-				"client/app/admin/forms/formItemsModal.jade"
-			],
-			[
-				"formitemsmod",
-				".tmp/app/admin/forms/formItemsModal.html"
-			],
-			[
-				"sitesett",
-				"client/app/admin/sites/site/siteSettings/siteSettings.jade"
-			],
-			[
-				"sitesettings.j",
-				"client/app/admin/sites/site/siteSettings/siteSettings.jade"
-			],
-			[
-				"sitesettings.jad",
-				"client/app/admin/sites/site/siteSettings/siteSettings.jade"
-			],
-			[
-				"data.jad",
-				"client/app/admin/data/data.jade"
-			],
-			[
-				"data.jade",
-				"client/app/admin/data/data.jade"
-			],
-			[
-				"apiser",
-				"server/api/api.service.js"
-			],
-			[
-				"data.con",
-				"client/app/admin/data/data.controller.coffee"
-			],
-			[
-				"data.contl",
-				"client/app/admin/data/data.controller.coffee"
-			],
-			[
-				"app.cof",
-				"client/app/app.coffee"
-			],
-			[
-				"app.jade",
-				"public/app/app.jade"
-			],
-			[
-				"site.o",
-				"public/app/site/site.coffee"
-			],
-			[
-				"publicapp",
-				"public/app/app.coffee"
-			],
-			[
-				"index.h",
-				"client/index.html"
-			],
-			[
-				"index",
-				"client/index.html"
-			],
-			[
-				"login.jade",
-				"client/app/account/login/login.jade"
-			],
-			[
-				"public",
-				"publicGruntfile.js"
-			],
-			[
-				"waypoints.j",
-				"client/bower_components/waypoints/waypoints.js"
-			],
-			[
-				"sha1",
-				"client/bower_components/SHA-1/sha1.js"
-			],
-			[
-				"publicsite.jad",
-				"public/app/site/site.jade"
-			],
-			[
-				"site.coff",
-				"public/app/site/site.coffee"
-			],
-			[
-				"main.cof",
-				"client/app/main/main.coffee"
-			],
-			[
-				"app.co",
-				"client/app/app.coffee"
-			],
-			[
-				"main.coff",
-				"client/app/main/main.coffee"
-			],
-			[
-				"analy",
-				"client/components/analytics/analytics.directive.coffee"
-			],
-			[
-				"packa",
-				"package.json"
-			],
-			[
-				"sqldb",
-				"server/sqldb/index.js"
-			],
-			[
-				"image.mod",
-				"server/api/image/image.model.js"
-			],
-			[
-				"image.modl",
-				"server/api/image/image.model.js"
-			],
-			[
-				"user.model",
-				"server/api/user/user.model.js"
-			],
-			[
-				"develo",
-				"server/config/environment/development.js"
-			],
-			[
-				"local.",
-				"server/config/local.env.js"
-			],
-			[
-				"sqldbin",
-				"server/sqldb/index.js"
-			],
-			[
-				"configind",
-				"server/config/environment/index.js"
-			],
-			[
-				"auth.ser",
-				"server/auth/auth.service.js"
-			],
-			[
-				"stripeind",
-				"server/auth/stripe/index.js"
-			],
-			[
-				"authinde",
-				"server/auth/index.js"
-			],
-			[
-				"googlepass",
-				"server/auth/google/passport.js"
-			],
-			[
-				"googleind",
-				"server/auth/google/index.js"
-			],
-			[
-				"drive",
-				"server/components/google/drive.js"
-			],
-			[
-				"strategiesoauth2",
-				"node_modules/passport-google-oauth/node_modules/passport-oauth/lib/passport-oauth/strategies/oauth2.js"
-			],
-			[
-				"googlepas",
-				"server/auth/google/passport.js"
 			]
 		],
 		"width": 0.0
@@ -1085,7 +1218,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 316.0,
+	"side_bar_width": 387.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

@@ -154,7 +154,6 @@ var LeftNavContainer = React.createClass({
             style={contentTouchableAreaStyle}
             scroller={this.scroller}
             touchable={this.isNavOpen()}
-            onTouchTap={this._handleContentTouchTap}
             onClick={this._handleContentTouchTap}
             >
             {this.props.children}
@@ -167,7 +166,6 @@ var LeftNavContainer = React.createClass({
           opacity={behavior.top.opacity(this.props.sideWidth, this.state.scrollLeft)}>
           <TouchableArea
             onClick={this._handleTap}
-            onTouchTap={this._handleTap}
             scroller={this.scroller}
             touchable={true}
             >

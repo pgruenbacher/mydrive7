@@ -15,6 +15,8 @@
 var React = require('react');
 
 var SideNav = require('../layouts/SideNav.jsx');
+var ImageGallery = require('./GalleryPage.jsx');
+var SimpleScroll = require('./SimpleScroll.jsx');
 
 
 var Signup = React.createClass({
@@ -25,7 +27,7 @@ var Signup = React.createClass({
         return (
             <SideNav>
                 <div>
-                    <h1>Hello</h1>
+                    <ImageGallery/>
                 </div>
             </SideNav>
         );

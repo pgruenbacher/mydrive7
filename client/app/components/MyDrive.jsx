@@ -5,11 +5,12 @@
  */
 'use strict';
 var React = require('react');
-var Nav = require('./layouts/NavBar.jsx');
+var NavBar = require('./layouts/navbar/NavBar.jsx');
 var Home = require('./pages/Home.jsx');
 var Login = require('./pages/Login.jsx');
 var Signup = require('./pages/Signup.jsx');
 var SideNav = require('./pages/SideNav.jsx');
+var Admin = require('./pages/admin/admin.jsx');
 // var About = require('./About.jsx');
 // var Page = require('./Page.jsx');
 var ApplicationStore = require('../stores/ApplicationStore');
@@ -31,7 +32,6 @@ var Application = React.createClass({
     },
     render: function () {
         var output = '';
-        console.log('render mydrive',this.state.currentPageName);
         //choose the right page based on the route
         switch (this.state.currentPageName) {
             case 'home':
@@ -49,11 +49,17 @@ var Application = React.createClass({
             case 'sidenav':
                 output = <SideNav/>;
                 break;
+            case 'admin':
+                output=<Admin/>;
+                break;
+            default:
+                output = <Home/>;
+                break;
         }
         //render content
-        // <Nav selected={this.state.currentPageName} links={this.state.pages} />
         return (
             <div>
+                <NavBar selected={this.state.currentPageName} links={this.state.pages}/>
                 {output}
             </div>
         );

@@ -1,0 +1,39 @@
+.horizontal-gradient (@startColor: #eee, @endColor: white, @direction:left) {
+  background-color: @startColor;
+  // background-image: -webkit-gradient(linear, left top, right top, from(@startColor), to(@endColor));
+  background-image: -webkit-linear-gradient(@direction, @startColor, @endColor);
+  // background-image: -moz-linear-gradient(@direction, @startColor, @endColor);
+  // background-image: -ms-linear-gradient(@direction, @startColor, @endColor);
+  // background-image: -o-linear-gradient(@direction, @startColor, @endColor);
+}
+
+.viewer {
+  background: black;
+  overflow: hidden;
+  perspective: 500px;
+  -webkit-perspective: 500px;
+  -moz-perspective: 500px;
+} 
+
+.viewer-nav{
+  position:absolute;
+  height:100%;
+  width:60px;
+  z-index:400;
+  &.viewer-nav-left{
+    left:0px;
+    right:auto;
+    &:hover{
+      opacity:0.5;
+      .horizontal-gradient(#333,black,left)
+    }
+  }
+  &.viewer-nav-right{
+    right:0px;
+    left:auto;
+    &:hover{
+      opacity:0.5;
+      .horizontal-gradient(#333,black,left)
+    }
+  }
+}

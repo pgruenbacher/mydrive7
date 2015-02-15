@@ -1,15 +1,16 @@
+/*jshint node:true*/
 'use strict';
 
 var path = require('path');
 var _ = require('lodash');
 
 function requiredProcessEnv(name) {
-  if(!process.env[name]) {
+  if (!process.env[name]) {
     throw new Error('You must set the ' + name + ' environment variable');
   }
   return process.env[name];
 }
-
+// requiredProcessEnv(STRIPE_ID);
 // All configurations will extend these options
 // ============================================
 var all = {
@@ -26,7 +27,7 @@ var all = {
 
   // Secret for session, you will want to change this and make it an environment variable
   secrets: {
-    session: 'slushy-secret'
+    session: 'mydrive5-secret'
   },
 
   // List of user roles
@@ -40,7 +41,23 @@ var all = {
       }
     }
   },
-
+  blitline:{
+    id:process.env.BLITLINE_APPLICATION_ID
+  },
+  prerender:{
+    token: process.env.PRERENDER_TOKEN || 'token'
+  },
+  stripe:{
+    clientID: process.env.STRIPE_ID || 'id',
+    clientPublic: process.env.STRIPE_PUBLIC || 'public',
+    clientSecret: process.env.STRIPE_SECRET || 'secret',
+    callbackURL: (process.env.DOMAIN|| '') + '/auth/stripe/callback'
+  },
+  aws:{
+    key: process.env.AWS_ACCESS_KEY_ID,
+    secret: process.env.AWS_SECRET_ACCESS_ID,
+    bucket: process.env.S3_BUCKET_ID
+  },
   facebook: {
     clientID:     process.env.FACEBOOK_ID || 'id',
     clientSecret: process.env.FACEBOOK_SECRET || 'secret',

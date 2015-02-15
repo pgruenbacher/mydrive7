@@ -7,7 +7,7 @@ React.initializeTouchEvents(true);
 var TouchableArea = React.createClass({
   getDefaultProps: function() {
     return {
-      toucheable: true
+      touchable: true
     };
   },
 
@@ -20,9 +20,6 @@ var TouchableArea = React.createClass({
     e.preventDefault();
   },
 
-  hangleClickStart:function(e){
-    console.log('clickstart',e);
-  },
 
   handleTouchMove: function(e) {
     if (!this.props.scroller || !this.props.touchable) {

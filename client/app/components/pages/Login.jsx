@@ -7,40 +7,61 @@
 var React = require('react');
 
 // var AppStore = require('../stores/AppStore');
-var AppActions = require('../../actions/AppActions');
+var LoginAction = require('../../actions/authentication/LoginActions');
+
+var FluxibleMixin = require('fluxible').Mixin;
 
 // var NAV = require('./NavBar.jsx');
 // var BANNER = require('./Banner.jsx');
 
 var mui=require('material-ui');
 var RaisedButton=mui.RaisedButton;
-var Tooltip = mui.Tooltip;
+var TextField=mui.TextField;
 
 var TooltipHover = require('../elements/toolTipHover.jsx');
 
 
 var LOGIN  = React.createClass({
+  mixins:[FluxibleMixin],
 
-  handleClick: function(){
-    console.log("at handleClick in Signup");
+  getInitialState:function(){
+    return {email:'',password:''};
+  },
+
+  handleSubmit: function(e){
+    e.preventDefault();
+    this.executeAction(LoginAction,this.state);
   },
 
   handleInput: function(e) {
     console.log("at handleInput in Login");
   },
+
+  _onPasswordChange:function(event){
+    this.setState({password:event.target.value});
+  },
+
+  _onEmailChange:function(event){
+    this.setState({email:event.target.value});
+  },
   
   render: function(){
     return (
-      <div className="example-page">
-
-        <h1>material-ui</h1>
-        <h2>example project</h2>
-
-        <RaisedButton label="Secondary" secondary={true} onClick={this.handleClick}></RaisedButton>
-        <div>asdlfkj</div>
-        <TooltipHover label="This is a tooltip">
-          <RaisedButton label="Secondary" secondary={true} onClick={this.handleClick}></RaisedButton>
-        </TooltipHover>
+      <div className="login-page">
+        <form>  
+          <input
+            floatingLabelText="email"
+            value={this.state.email}
+            onChange={this._onEmailChange}
+            hintText="email"/>
+          <input
+            floatingLabelText="password"
+            hintText="password"
+            onChange={this._onPasswordChange}
+            value={this.state.password}
+            type="password"/>
+          <RaisedButton secondary={true} label="login" onClick={this.handleSubmit}/>
+        </form>
       </div>
       // <div>
       //   <div className="container">

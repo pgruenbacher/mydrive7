@@ -15,70 +15,123 @@
 var React = require('react');
 
 var mui = require('material-ui');
+var TextField = mui.TextField;
 var Tooltip = mui.Tooltip;
+var RaisedButton = mui.RaisedButton;
+var StatesSelect = require('../../components/forms/address/states.jsx');
+var FluxibleMixin = require('fluxible').Mixin;
+
+var SignupAction = require('../../actions/authentication/SignupAction');
 
 var Signup = React.createClass({
-    getInitialState: function () {
-        return {};
-    },
-    render: function() {
-        return (
-            <div>
-              <p>Welcome to the signup!</p>
-              <Tooltip label="asdf" show={true} ></Tooltip>
-            </div>
-        );
-    }
+  mixins:[FluxibleMixin],
+
+  getInitialState: function () {
+    return {
+      email:'pgruenbacher@gmail.com',
+      firstName:'paul',
+      lastName:'gruen',
+      phoneNumber:'(513) 319-8238',
+      dob: '05/08/1990',
+      businessName:'something name',
+      productDescription:'description description',
+      businessType:'sole_prop',
+      zip:45014,
+      streetAddress:'1867 Harrowgate',
+      state:'OH',
+      city:'fairfield'
+    };
+  },
+  handleChange:function(value){
+    var self=this;
+    return function(event){
+      var obj={};
+      obj[value]=event.target.value;
+      self.setState(obj);
+    };
+  },
+  handleSubmit:function(e){
+    e.preventDefault();
+    var obj=this.state;
+    obj.phoneNumber=this.state.phoneNumber.replace(/\D/g,'');
+
+    console.log(this.state.dob.split('/'));
+    this.executeAction(SignupAction,obj);
+  },
+  render: function() {
+    return (
+      <div>
+        <form>
+          <div style={{width:'450px',margin:'40px',display:'inline-block'}}>
+            <TextField
+              floatingLabelText="email"
+              value={this.state.email}
+              onChange={this.handleChange('email')}
+              hintText="email"/>
+            <TextField
+              floatingLabelText="firstName"
+              value={this.state.firstName}
+              onChange={this.handleChange('firstName')}
+              hintText="firstName"/>
+            <TextField
+              floatingLabelText="lastName"
+              value={this.state.lastName}
+              onChange={this.handleChange('lastName')}
+              hintText="lastName"/>
+            <TextField
+              floatingLabelText="phoneNumber"
+              value={this.state.phoneNumber}
+              onChange={this.handleChange('phoneNumber')}
+              hintText="phoneNumber"/>
+            <TextField
+              floatingLabelText="dob"
+              value={this.state.dob}
+              onChange={this.handleChange('dob')}
+              hintText="dob"/>
+          </div>
+          <div style={{width:'450px',margin:'40px',display:'inline-block'}}>
+            <TextField
+              floatingLabelText="businessName"
+              value={this.state.businessName}
+              onChange={this.handleChange('businessName')}
+              hintText="businessName"/>
+            <TextField
+              value={this.state.productDescription}
+              multiLine={true}
+              onChange={this.handleChange('productDescription')}
+              hintText="productDescription"/>
+            <TextField
+              floatingLabelText="businessType"
+              value={this.state.businessType}
+              onChange={this.handleChange('businessType')}
+              hintText="businessType"/>
+            <TextField
+              floatingLabelText="streetAddress"
+              value={this.state.streetAddress}
+              onChange={this.handleChange('streetAddress')}
+              hintText="streetAddress"/>
+            <TextField
+              floatingLabelText="city"
+              value={this.state.city}
+              onChange={this.handleChange('city')}
+              hintText="city"/>
+            <StatesSelect
+              value={this.state.state}
+              onChange={this.handleChange('state')}/>
+            <TextField
+              floatingLabelText="zip"
+              value={this.state.zip}
+              onChange={this.handleChange('zip')}
+              hintText="zip"/>
+          </div>
+          <RaisedButton
+            onClick={this.handleSubmit}
+            secondary={true}
+            label="submit"/>
+        </form>
+      </div>
+    );
+  }
 });
 
 module.exports = Signup;
-
-// var SIGNUP  = React.createClass({
-
-//   handleClick: function(){
-//     console.log("at handleClick in Signup");
-//   },
-
-//   handleInput: function(e) {
-//     console.log("at handleInput in Signup");
-//   },
-  
-//   render: function(){
-//     return (
-//       <div>
-//         <div className="container">
-//         <h1>Signup</h1>
-//         <form className="form-horizontal" role="form">
-//             <div className="form-group">
-//               <label for="inputPassword3" className="control-label">Name</label>
-//               <div className="container">
-//                 <input type="text" className="form-control" placeholder="Name" onKeyPress={this.handleInput}/>
-//               </div>
-//             </div>
-//             <div className="form-group">
-//               <label for="inputEmail3" className="control-label">Email</label>
-//               <div className="container">
-//                 <input type="email" className="form-control" id="inputEmail3" placeholder="Email" onKeyPress={this.handleInput}/>
-//               </div>
-//             </div>
-//             <div className="form-group">
-//               <label for="inputPassword3" className="control-label">Password</label>
-//               <div className="container">
-//                 <input type="password" className="form-control" id="inputPassword3" placeholder="Password" onKeyPress={this.handleInput}/>
-//               </div>
-//             </div>
-           
-//             <div className="form-group">
-//               <div className="control-button">
-//                 <button type="submit" className="btn btn-default" onClick={this.handleClick} >Sign up</button>
-//               </div>
-//             </div>
-//           </form>
-//         </div> 
-//       </div>
-
-//       );
-//   }
-// });
-
-// module.exports = SIGNUP;

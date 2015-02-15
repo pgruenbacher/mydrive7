@@ -1,10 +1,7 @@
 /*jshint node:true*/
 'use strict';
 
-var keyMirror = require('keymirror');
+module.exports={
+  NAVBAR_HEIGHT:50
 
-module.exports = keyMirror({
-  POPULATE: null,
-  ADD: null,
-  REMOVE: null
-});
+};

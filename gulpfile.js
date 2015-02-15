@@ -25,7 +25,16 @@ var shell = require('gulp-shell');
 var glob = require('glob');
 var livereload = require('gulp-livereload');
 var jasminePhantomJs = require('gulp-jasmine2-phantomjs');
+var env = require('gulp-env');
 // var lr= require('tiny-lr');
+
+
+var localConfig;
+try {
+  localConfig = require('./server/config/local.env');
+} catch(e) {
+  localConfig = {};
+}
 
 
 var browserifyTask = require('./gulp/browserify');
@@ -124,13 +133,19 @@ gulp.task('deploy', function () {
 
 });
 
+gulp.task('set-env', function () {
+    env({
+      file:'./server/config/local.env'
+    });
+});
+
 gulp.task('nodemon', function(done){
   nodemon({ script: './server/server.js', env: { 'NODE_ENV': 'development'}})
   .on('restart');
 });
 
 // The default task (called when you run `gulp` from cli)
-gulp.task('default', ['serve','nodemon']);
+gulp.task('default', ['serve','set-env','nodemon']);
 
 
 // gulp.task('serve', ['browserify', 'nodemon','watch']);

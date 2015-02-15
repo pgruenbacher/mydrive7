@@ -8,7 +8,6 @@ function fetchMessages(context, payload, done) {
     debug('fetching messages');
     context.service.read('message', {}, {}, function (err, messages) {
         context.dispatch('RECEIVE_MESSAGES', messages);
-        console.log(messages);
         // context.executeAction(openThread, payload, function() {
         //     context.dispatch('SHOW_CHAT_END');
         //     done();

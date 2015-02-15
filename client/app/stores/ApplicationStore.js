@@ -1,11 +1,14 @@
 /*jshint node:true*/
 'use strict';
 var createStore = require('fluxible/utils/createStore');
+var SessionStore = require('./SessionStore');
+
 var routesConfig= require('../routes/routes');
 
 var ApplicationStore = createStore({
     storeName: 'ApplicationStore',
     handlers: {
+        'SET_USER' : 'handleUser',
         'CHANGE_ROUTE_SUCCESS' : 'handleNavigate',
         'UPDATE_PAGE_TITLE'    : 'updatePageTitle'
     },
@@ -15,12 +18,33 @@ var ApplicationStore = createStore({
         this.currentRoute = null;
         this.pages = routesConfig;
         this.pageTitle = '';
+        this.currentUser= {};
+    },
+    handleUser: function (user) {
+        this.currentUser = user;
+        this.emitChange();
+    },
+    checkPermission:function(route){
+        var config = route.config;
+        // var user = SessionStore.getCurrentUser();
+        if(typeof config.auth!=='undefined'){
+            if(typeof config.auth.roles!=='undefined'){
+                if(typeof this.currentUser.role==='undefined'){
+                    return false;
+                }else if(config.auth.roles.indexOf(this.currentUser.role) ===-1){
+                    return false;
+                }
+            }
+        }
+        return true;
     },
     handleNavigate: function (route) {
         if (this.currentRoute && (this.currentRoute.url === route.url)) {
             return;
         }
-
+        if(!this.checkPermission(route)){
+            return;
+        }
         var pageName = route.config.page;
         var page = this.pages[pageName];
 

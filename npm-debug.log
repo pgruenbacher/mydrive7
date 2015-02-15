@@ -1,0 +1,65 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/paul/.nvm/v0.10.33/bin/node',
+1 verbose cli   '/home/paul/.nvm/v0.10.33/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'malys/rekuirify',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 warn package.json fluxible-plugin-routr@0.3.0 No repository field.
+5 warn package.json p@0.2.0 bugs['name'] should probably be bugs['url'].
+6 warn package.json s@0.1.1 No repository field.
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'malys/rekuirify', null ]
+9 verbose cache add name=undefined spec="malys/rekuirify" args=["malys/rekuirify",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'malys/rekuirify',
+10 verbose parsed url   path: 'malys/rekuirify',
+10 verbose parsed url   href: 'malys/rekuirify' }
+11 silly lockFile b776d6cb-malys-rekuirify malys/rekuirify
+12 verbose lock malys/rekuirify /home/paul/.npm/b776d6cb-malys-rekuirify.lock
+13 info maybeGithub Attempting malys/rekuirify from git://github.com/malys/rekuirify
+14 silly lockFile 09a4e96e-git-github-com-malys-rekuirify git://github.com/malys/rekuirify
+15 verbose lock git://github.com/malys/rekuirify /home/paul/.npm/09a4e96e-git-github-com-malys-rekuirify.lock
+16 verbose addRemoteGit [ 'git://github.com/malys/rekuirify', 'master' ]
+17 verbose git clone git://github.com/malys/rekuirify Cloning into bare repository '/home/paul/.npm/_git-remotes/git-github-com-malys-rekuirify-09a4e96e'...
+17 verbose git clone git://github.com/malys/rekuirify fatal: remote error:
+17 verbose git clone git://github.com/malys/rekuirify   Repository not found.
+18 silly lockFile 09a4e96e-git-github-com-malys-rekuirify git://github.com/malys/rekuirify
+19 silly lockFile 09a4e96e-git-github-com-malys-rekuirify git://github.com/malys/rekuirify
+20 info maybeGithub Attempting malys/rekuirify from git+ssh://git@github.com:malys/rekuirify
+21 silly lockFile 259e16d4-git-github-com-malys-rekuirify git@github.com:malys/rekuirify
+22 verbose lock git@github.com:malys/rekuirify /home/paul/.npm/259e16d4-git-github-com-malys-rekuirify.lock
+23 verbose addRemoteGit [ 'git@github.com:malys/rekuirify', 'master' ]
+24 error git clone git@github.com:malys/rekuirify Cloning into bare repository '/home/paul/.npm/_git-remotes/git-github-com-malys-rekuirify-259e16d4'...
+24 error git clone git@github.com:malys/rekuirify ERROR: Repository not found.
+24 error git clone git@github.com:malys/rekuirify fatal: Could not read from remote repository.
+24 error git clone git@github.com:malys/rekuirify
+24 error git clone git@github.com:malys/rekuirify Please make sure you have the correct access rights
+24 error git clone git@github.com:malys/rekuirify and the repository exists.
+25 silly lockFile 259e16d4-git-github-com-malys-rekuirify git@github.com:malys/rekuirify
+26 silly lockFile 259e16d4-git-github-com-malys-rekuirify git@github.com:malys/rekuirify
+27 silly lockFile b776d6cb-malys-rekuirify malys/rekuirify
+28 silly lockFile b776d6cb-malys-rekuirify malys/rekuirify
+29 error addLocal Could not install malys/rekuirify
+30 error Error: ENOENT, stat 'malys/rekuirify'
+31 error If you need help, you may report this *entire* log,
+31 error including the npm and node versions, at:
+31 error     <http://github.com/npm/npm/issues>
+32 error System Linux 3.13.0-45-generic
+33 error command "/home/paul/.nvm/v0.10.33/bin/node" "/home/paul/.nvm/v0.10.33/bin/npm" "install" "malys/rekuirify" "--save"
+34 error cwd /home/paul/Code/fundraiser/mydrive7
+35 error node -v v0.10.33
+36 error npm -v 1.4.28
+37 error path malys/rekuirify
+38 error code ENOENT
+39 error errno 34
+40 verbose exit [ 34, true ]

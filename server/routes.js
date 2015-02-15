@@ -7,6 +7,7 @@
 
 
 var errors = require('./components/errors');
+var auth = require('./auth/auth.service');
 
 var ReactRoutes = require('./config/react');
 // var serialize = require('serialize-javascript');
@@ -29,6 +30,7 @@ module.exports = function(app) {
   app.route('/:url(api|client|build|auth|components|app|bower_components|assets)/*')
    .get(errors[404]);
 
+  // app.get('/signup', auth.isAuthenticated());
 
   // All other routes should redirect to the index.html
   app.get('/*', new ReactRoutes(app));

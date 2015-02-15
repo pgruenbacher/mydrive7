@@ -1,5 +1,12 @@
+/*jshint node:true*/
 'use strict';
-
+var match;
+if (process.env.HEROKU_POSTGRESQL_ORANGE_URL) {
+  // the application is executed on Heroku ... use the postgres database
+  match = process.env.HEROKU_POSTGRESQL_ORANGE_URL.match(/postgres:\/\/([^:]+):([^@]+)@([^:]+):(\d+)\/(.+)/);
+}else{
+  match=['','','','','',''];
+}
 // Production specific configuration
 // =================================
 module.exports = {
@@ -17,7 +24,20 @@ module.exports = {
   mongo: {
     uri:    process.env.MONGOLAB_URI ||
             process.env.MONGOHQ_URL ||
-            process.env.OPENSHIFT_MONGODB_DB_URL+process.env.OPENSHIFT_APP_NAME ||
-            'mongodb://localhost/slushy'
+            process.env.OPENSHIFT_MONGODB_DB_URL +
+            process.env.OPENSHIFT_APP_NAME ||
+            'mongodb://localhost/mydrive5'
+  },
+  sequelize: {
+    database:match[5],
+    username:match[1],
+    password:match[2],
+    options: {
+      dialect:'postgres',
+      protocol:'postgres',
+      port:match[4],
+      host:match[3],
+      logging: false
+    }
   }
 };

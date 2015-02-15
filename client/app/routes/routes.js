@@ -8,6 +8,7 @@ module.exports = {
         method: 'get',
         page: 'home',
         label: 'Home',
+
         action: function (context, payload, done) {
             context.dispatch('UPDATE_PAGE_TITLE', { pageTitle: 'Home' });
             done();
@@ -29,10 +30,7 @@ module.exports = {
         page: 'login',
         label: 'Login',
         action: function (context, payload, done) {
-            context.executeAction(showChat, { threadID: payload.params.id }, function(err,body) {
-                console.log(body);
-            });
-            context.dispatch('UPDATE_PAGE_TITLE', { pageTitle: 'About' });
+            context.dispatch('UPDATE_PAGE_TITLE', { pageTitle: 'Login' });
             done();
         }
     },
@@ -42,7 +40,7 @@ module.exports = {
         page:'signup',
         label:'Signup',
         action:function(context,payload,done){
-            context.dispatch('UPDATE_PAGE_TITLE',{pageTItle:'Signup'});
+            context.dispatch('UPDATE_PAGE_TITLE',{pageTitle:'Signup'});
             done();
         }
     },
@@ -53,6 +51,19 @@ module.exports = {
         label:'SideNav',
         action:function(context,payload,done){
             context.dispatch('UPDATE_PAGE_TITLE',{pageTItle:'SideNav'});
+            done();
+        }
+    },
+    admin:{
+        path:'/admin',
+        method:'get',
+        page:'admin',
+        label:'Admin',
+        auth:{
+            roles:['admin']
+        },
+        action:function(context,payload,done){
+            context.dispatch('UPDATE_PAGE_TITLE',{pageTitle:'Admin'});
             done();
         }
     }

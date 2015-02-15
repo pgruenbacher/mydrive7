@@ -32,6 +32,7 @@ app.plug(routrPlugin({
 }));
 
 app.registerStore(require('./stores/ApplicationStore'));
+app.registerStore(require('./stores/SessionStore'));
 
 
 
@@ -40,11 +41,11 @@ app.registerStore(require('./stores/ApplicationStore'));
 
 
 var injectTapEventPlugin = require("react-tap-event-plugin");
+injectTapEventPlugin();
 //Needed for onTouchTap
 //Can go away when react 1.0 release
 //Check this repo:
 //https://github.com/zilverline/react-tap-event-plugin
-injectTapEventPlugin();
 
 
 module.exports = app;

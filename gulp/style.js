@@ -18,9 +18,9 @@ module.exports = function(config, options){
         starttag: '// injector:less',
         endtag: '// endinjector',
         transform: function (filePath) {
-          console.log(filePath);
           if (filePath.slice(-5) === '.less') {
             filePath = filePath.replace('/client/', '../../');
+            console.log(filePath);
             return '@import \'' + filePath + '\';';
           }
           return inject.transform.apply(inject.transform, arguments);

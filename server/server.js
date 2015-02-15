@@ -13,8 +13,6 @@ var config = require('./config/environment');
 var bodyParser = require('body-parser');
 var cookieParser = require('cookie-parser');
 var csrf = require('csurf');
-var clientApp = require('../client/app/app.jsx');
-
 
 
 
@@ -28,6 +26,7 @@ if(config.seedDB) { require('./config/seed'); }
 
 // Setup server
 var app = express();
+var clientApp = require('../client/app/app.jsx');
 
 
 
@@ -36,18 +35,20 @@ app.use(bodyParser.json());
 app.use(csrf({cookie: true}));
 
 
+var server = require('http').createServer(app);
+require('./config/express')(app);
+require('./routes')(app);
+
 
 // Get access to the fetchr plugin instance
 var fetchrPlugin = clientApp.getPlugin('FetchrPlugin');
 // Register our messages REST service
 fetchrPlugin.registerService(require('./services/message'));
 // Set up the fetchr middleware
+
 app.use(fetchrPlugin.getXhrPath(), fetchrPlugin.getMiddleware());
 
 
-var server = require('http').createServer(app);
-require('./config/express')(app);
-require('./routes')(app);
 
 // Start server
 server.listen(config.port, config.ip, function () {
